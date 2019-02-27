@@ -1,5 +1,13 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+
+const TagRoute = () => (
+  <div>
+    
+  </div>
+);
+
+export default TagRoute
+/*import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
@@ -71,4 +79,4 @@ export const tagPageQuery = graphql`
       }
     }
   }
-`
+`*/

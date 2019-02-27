@@ -1,5 +1,14 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
+const ProductPage = () => (
+  <div>
+    Hey Man
+  </div>
+)
+
+export default ProductPage
+
+/*import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -248,4 +257,4 @@ export const productPageQuery = graphql`
       }
     }
   }
-`
+`*/

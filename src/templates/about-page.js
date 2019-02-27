@@ -1,5 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import Layout from '../components/Layout';
+/*import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
@@ -47,11 +48,17 @@ const AboutPage = ({ data }) => {
 
 AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
-}
+}*/
+
+const AboutPage = () => (
+    <Layout>
+      About Us
+    </Layout>
+)
 
 export default AboutPage
 
-export const aboutPageQuery = graphql`
+/*export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
@@ -60,4 +67,4 @@ export const aboutPageQuery = graphql`
       }
     }
   }
-`
+`*/

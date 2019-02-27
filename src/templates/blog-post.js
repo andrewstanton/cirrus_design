@@ -1,5 +1,14 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
+const BlogPost = () => (
+  <div>
+    Blog Post
+  </div>
+)
+
+export default BlogPost
+
+/*import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
@@ -100,4 +109,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`*/
