@@ -2,6 +2,9 @@ module.exports = {
   siteMetadata: {
     title: 'Cirrus Design',
     description: 'Cirrus Design website developed by Todd Productions inc.',
+    facebook: 'http://facebook.com',
+    twitter: 'http://twitter.com',
+    linkedin: 'http://linkedin.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

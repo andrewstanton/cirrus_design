@@ -2,19 +2,18 @@
  * Styles for header
  */
 .s-header {
-    width: 100%;
     height: $header_height;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    width: 100%;
 
     &_top {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.7);
         flex: 1;
         width: 100%;
         height: $header_top_height;
         flex-direction: row-reverse;
-
-        &-social {
-            
-        }
     }
 
     &_bottom {
@@ -22,5 +21,45 @@
         background-color: $black;
         display: flex;
         height: $header_bottom_height;
+    }
+
+    &_social {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        margin-left: auto;
+        height: $header_top_height;
+    }
+
+    &_logo {
+        width: $logo_width;
+        display: flex;
+        
+        &_img {
+            width: $logo_width;
+            margin-top: -15px;
+        }
+    }
+}
+
+.s-header--sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .s-header {
+
+        &_top {
+            display: none;
+        }
+
+        &_logo {
+            width: $logo_width_sticky;
+
+            &_img {
+                width: $logo_width_sticky;
+                margin-top: 5px;
+            }
+        }
     }
 }

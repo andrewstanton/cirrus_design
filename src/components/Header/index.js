@@ -19,7 +19,7 @@ const Header = () => (
             <header className="s-header">
                 <section className="s-header_top">
                     <div className="wrapper">
-                        <div className="header-social">
+                        <div className="s-header_social">
                             <SocialIcons />
                         </div>
                     </div>
@@ -27,21 +27,31 @@ const Header = () => (
                 <section className="s-header_bottom">
                     <div className="wrapper">
 
-                        <div className="logo">
-                            <img className="logo_img" 
-                                src={ logo }
-                                alt={ data.site.siteMetadata.title } />
+                        <div className="s-header_logo">
+                            <Link to="/">
+                                <img className="s-header_logo_img"
+                                    src={ logo }
+                                    alt={ data.site.siteMetadata.title } />
+                            </Link>
                         </div>
 
                         <nav className="m-nav">
                             <ul className="m-nav_menu">
                                 <li>
                                     <Link to="/">Home</Link>
+                                    <ul className="m-nav_dd">
+                                        <li>
+                                            <Link to="/">Sub Link</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="/">Sub Link 2</Link>
+                                        </li>
+                                    </ul>
                                 </li>
-                                <li className="mainNav_menu_item">
+                                <li>
                                     <Link to="/">About Us</Link>
                                 </li>
-                                <li className="mainNav_menu_item">
+                                <li>
                                     <Link to="/">Contact Us</Link>
                                 </li>
                             </ul> 

@@ -1,23 +1,35 @@
 import React from 'react'
-import SocialIcons from '../SocialIcons';
+
+import SocialIcons from '../SocialIcons'
 
 const Footer = () => (
-    <footer className="l-footer">
-        <section className="footerTop">            
+    <footer className="s-footer">
+        <div className="s-footer_top">            
             <div className="wrapper">
 
-            </div>
-        </section>
-        <section className="footerBottom">
-            <div className="wrapper">
-                <div className="footerBottom-meta">
+                <div className="s-footer_top_links">
+                    <h2 className="s-footer_heading">Links</h2>
+                    
+                    <nav className="f-nav">
 
+                    </nav>
                 </div>
-                <div className="footerBottom-socialWrapper">
-                    <SocialIcons />
+
+                <div className="s-footer_top_contact">
+                    <h2 className="s-footer_heading">Contact</h2>
+    
+    
                 </div>
+
             </div>
-        </section>
+        </div>
+        <div className="s-footer_bottom">
+            <div className="wrapper">
+
+
+
+            </div>
+        </div>
     </footer>
 )
 

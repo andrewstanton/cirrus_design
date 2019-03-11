@@ -1,0 +1,29 @@
+/**
+ * Footer Styles
+ */
+.s-footer {
+    display: flex;
+    font-family: $font_two;
+    color: $white;
+
+    &_top {
+        flex: 1;
+        display: flex;
+        padding: $footer_padding 0;
+        background-color: $ft_grey;
+
+        &_links {
+            flex: 1;
+        }
+
+        &_contact {
+            flex: 1;
+        }
+    }
+
+    &_heading {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+}
