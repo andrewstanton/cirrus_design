@@ -1,0 +1,27 @@
+/**
+ * Base Styles
+ */
+html, body {
+    background-color: $bg_grey;
+    color: $white;
+    font-family: $font_two;
+    font-size: $font_base_size;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
+    color: $white;
+    font-family: $font_one;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    max-width: $max_container_width;
+    margin: 0 auto;
+}
+
+// Parts Of The Base Layout
+@import "./header";
+@import "./nav";

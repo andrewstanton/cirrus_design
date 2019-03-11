@@ -1,45 +1,57 @@
 import React from 'react'
-import SocialIcons from '../SocialIcons';
+import SocialIcons from '../SocialIcons'
+import { StaticQuery, graphql, Link } from 'gatsby'
+
+import logo from '../../img/logo.png';
 
 const Header = () => (
-    <header className="l-header">
-        <section className="headerTop">
-
-            <div className="wrapper">
-                <div className="headerTop-socialWrapper">
-                    <SocialIcons />
-                </div>
-            </div>
-
-        </section>
-        <section className="headerBottom">
-            <div className="wrapper">
-
-                <div className="logo">
-                    {
-                        // Logo Here
+    <StaticQuery 
+        query={ graphql`
+            query HeaderQuery {
+                site {
+                    siteMetadata {
+                        title
                     }
-                </div>
+                }
+            }
+        `}
+        render={ data => (
+            <header className="site-header">
+                <section className="site-header_top">
+                    <div className="wrapper">
+                        <div className="site-header_top-social">
+                            <SocialIcons />
+                        </div>
+                    </div>
+                </section>
+                <section className="site-header_bottom">
+                    <div className="wrapper">
 
-                <nav className="nav">
-                    <ul className="nav-ul">
-                        <li>
-                            Hey
-                        </li>
-                        <li>
-                            Hey Hey
-                            <ul className="nav-sub-ul">
-                                <li>
-                                    Sub Nav
+                        <div className="logo">
+                            <img className="logo_img" 
+                                src={ logo }
+                                alt={ data.site.siteMetadata.title } />
+                        </div>
+
+                        <nav className="nav">
+                            <ul className="nav_menu">
+                                <li className="menu_item">
+                                    <Link to="/" className="menu_item_link">Home</Link>
                                 </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
+                                <li className="menu_item">
+                                    <Link to="/" className="menu_item_link">About Us</Link>
+                                </li>
+                                <li className="menu_item">
+                                    <Link to="/" className="menu_item_link">Contact Us</Link>
+                                </li>
+                            </ul> 
+                        </nav>
 
-            </div>
-        </section>
-    </header>
+                    </div>
+                </section>
+            </header>
+        )}
+    />
 )
 
 export default Header

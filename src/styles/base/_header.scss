@@ -1,0 +1,36 @@
+/**
+ * Styles for header
+ */
+.site-header {
+    width: 100%;
+    height: $header_height;
+
+    &_top {
+        background-color: rgba(0, 0, 0, 0.5);
+        flex: 1;
+        width: 100%;
+        height: $header_top_height;
+        flex-direction: row-reverse;
+
+        &-social {
+            
+        }
+    }
+
+    &_bottom {
+        flex: 1;
+        background-color: $black;
+        display: flex;
+        height: $header_bottom_height;
+    }
+}
+
+.logo {
+    width: 215px;
+    display: flex;
+    
+    &_img {
+        height: 100px;
+        margin-top: -15px;
+    }
+}
