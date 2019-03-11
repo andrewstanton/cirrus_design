@@ -1,0 +1,38 @@
+.m-nav {
+    width: 100%;
+    height: $header_bottom_height;
+
+    &_menu {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    
+        & > li {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex: 1;
+            height: $header_bottom_height;
+        
+            & > a {
+                flex: 1;
+                display: flex;
+                padding: 0.5rem;
+                font-family: $font_one;
+                text-transform: uppercase;
+                color: $white;
+                text-decoration: none;
+                align-content: center;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}

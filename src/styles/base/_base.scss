@@ -15,13 +15,10 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9 {
     font-family: $font_one;
 }
 
+// Reusable Styles
 .wrapper {
     display: flex;
     flex: 1;
     max-width: $max_container_width;
     margin: 0 auto;
 }
-
-// Parts Of The Base Layout
-@import "./header";
-@import "./nav";

@@ -1,7 +1,7 @@
 /**
  * Styles for header
  */
-.site-header {
+.s-header {
     width: 100%;
     height: $header_height;
 
@@ -22,15 +22,5 @@
         background-color: $black;
         display: flex;
         height: $header_bottom_height;
-    }
-}
-
-.logo {
-    width: 215px;
-    display: flex;
-    
-    &_img {
-        height: 100px;
-        margin-top: -15px;
     }
 }

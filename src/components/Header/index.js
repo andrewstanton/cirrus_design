@@ -16,15 +16,15 @@ const Header = () => (
             }
         `}
         render={ data => (
-            <header className="site-header">
-                <section className="site-header_top">
+            <header className="s-header">
+                <section className="s-header_top">
                     <div className="wrapper">
-                        <div className="site-header_top-social">
+                        <div className="header-social">
                             <SocialIcons />
                         </div>
                     </div>
                 </section>
-                <section className="site-header_bottom">
+                <section className="s-header_bottom">
                     <div className="wrapper">
 
                         <div className="logo">
@@ -33,16 +33,16 @@ const Header = () => (
                                 alt={ data.site.siteMetadata.title } />
                         </div>
 
-                        <nav className="nav">
-                            <ul className="nav_menu">
-                                <li className="menu_item">
-                                    <Link to="/" className="menu_item_link">Home</Link>
+                        <nav className="m-nav">
+                            <ul className="m-nav_menu">
+                                <li>
+                                    <Link to="/">Home</Link>
                                 </li>
-                                <li className="menu_item">
-                                    <Link to="/" className="menu_item_link">About Us</Link>
+                                <li className="mainNav_menu_item">
+                                    <Link to="/">About Us</Link>
                                 </li>
-                                <li className="menu_item">
-                                    <Link to="/" className="menu_item_link">Contact Us</Link>
+                                <li className="mainNav_menu_item">
+                                    <Link to="/">Contact Us</Link>
                                 </li>
                             </ul> 
                         </nav>
