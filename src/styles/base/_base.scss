@@ -31,4 +31,8 @@ h1, h2, h3, h4, h5, h6, h7, h8, h9 {
     flex: 1;
     max-width: $max_container_width;
     margin: 0 auto;
+
+    &--no-flex {
+        display: block;
+    }
 }
