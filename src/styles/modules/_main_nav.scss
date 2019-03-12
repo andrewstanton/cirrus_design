@@ -13,6 +13,7 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: row;
             flex: 1;
             height: $header_bottom_height;
             position: relative;
@@ -30,6 +31,7 @@
                 flex-direction: column;
                 justify-content: center;
                 text-align: center;
+                transition: all linear 0.1s;
                 
                 &:hover {
                     color: $yellow;
@@ -37,43 +39,44 @@
             }
 
             &:hover {
-                & > ul {
-                    left: 50%;
+                & > div.m-nav_dd {
+                    display: flex;
                 }
             }
         }
     }
 
     &_dd {
+        display: none;
         position: absolute;
-        background-color: $black;
-        display: block;
-        z-index: 200;
-        left: -9999em;
-        top: 0;
-        padding: 0;
-        margin: 0;
-        margin-left: -90px;
-        margin-top: $header_bottom_height;
-        width: 180px;
-        padding: 15px 0;
+        flex: 1;
 
-        > li {
-            padding: 5px 30px;
-            list-style: none;
+        > ul {
+            flex: 1;
+            background-color: $black;
             display: block;
-            
-            > a {
-                color: $white;
-                font-family: $font_one;
-                text-decoration: none;
-                text-transform: uppercase;
-
-                &:hover {
-                    color: $yellow;
+            z-index: 200;
+            padding: 0;
+            padding: 15px 0;
+    
+            > li {
+                padding: 5px 30px;
+                list-style: none;
+                display: flex;
+                flex: 1;
+                
+                > a {
+                    color: $white;
+                    font-family: $font_one;
+                    text-decoration: none;
+                    text-transform: uppercase;
+    
+                    &:hover {
+                        color: $yellow;
+                    }
                 }
+            
             }
-        
         }
     }
 }

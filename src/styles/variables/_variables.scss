@@ -21,6 +21,9 @@ $bg_grey: #29292a;
 // Footer
 $ft_grey: #373738;
 
+// Button colors
+$button_default: #464646;
+
 // Dimensions
 $max_container_width: 1284px;
 $header_height: 120px;
@@ -31,8 +34,13 @@ $header_bottom_height: 70px;
 $logo_width: 215px;
 $logo_width_sticky: 130px;
 $social_icon_height: 20px;
+$btn_max_width: 250px;
 
 
 //Padding
 $section_padding: 40px;
 $footer_padding: 20px;
+$card_padding: 20px;
+$card_bottom_padding: 40px;
+$card_image_height: 300px;
+$card_image_height_sm: 200px;

@@ -10,6 +10,13 @@ html, body {
     margin: 0;
 }
 
+button {
+    border: none;
+    font-family: $font_one;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6, h7, h8, h9 {
     color: $white;
     font-family: $font_one;

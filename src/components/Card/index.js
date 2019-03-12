@@ -1,37 +1,57 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Card = ({data}) => (
-    <div className={ data.isLarge ? `card card--large` : `card` }>
-        <div className="card-imageWrapper">
-            { data.image }
-        </div>
-        <h3 className="card-title">
-            { data.title }
-        </h3>
-        <h4 className="card-subtitle">
-            { data.subtitle }
-        </h4>
-        <p>
-            { data.description }
-        </p>
-        <button className="btn">
-            { buttonText }
-        </button>
+const classNames = (large, small) => {
+    const largeClass = large ? `card--large` : '';
+    const smallClass = small ? `card--small` : '';
+    return `card ${largeClass} ${smallClass}`;
+}
+
+const Card = ({large, title, image, subtitle, buttonText, children, small}) => (
+    <div className={ classNames(large, small ) }>
+        
+        {
+            image ?
+            <div className="card_image" style={{ backgroundImage: `url("${ image }")`}}></div> : null
+        }
+
+        {
+            title ?
+            <h3 className="card_title">
+                { title }
+            </h3> : null
+        }
+
+        {
+            subtitle ?
+            <h4 className="card_subtitle">
+                { subtitle }
+            </h4> : null
+        }
+
+        {
+            children ?
+            <p className="card_description">
+                { children }
+            </p> : null
+        }
+
+        {
+            buttonText ? 
+            <button className="btn btn--default">
+                { buttonText }
+            </button> : null
+        }
     </div>
 )
 
 Card.propTypes = {
-    data: PropTypes.arrayOf(
-        PropTypes.shape({
-            isLarge: PropTypes.bool,
-            title: PropTypes.string.isRequired,
-            subtitle: PropTypes.string,
-            img: PropTypes.string,
-            description: PropTypes.string.isRequired,
-            buttonText: PropTypes.string,
-        })
-    ),
+    isLarge: PropTypes.bool,
+    title: PropTypes.string,
+    subtitle: PropTypes.string,
+    image: PropTypes.string,
+    description: PropTypes.string.isRequired,
+    buttonText: PropTypes.string,
 }
 
 export default Card

@@ -39,14 +39,16 @@ const Header = () => (
                             <ul className="m-nav_menu">
                                 <li>
                                     <Link to="/">Home</Link>
-                                    <ul className="m-nav_dd">
-                                        <li>
-                                            <Link to="/">Sub Link</Link>
-                                        </li>
-                                        <li>
-                                            <Link to="/">Sub Link 2</Link>
-                                        </li>
-                                    </ul>
+                                    <div className="m-nav_dd">
+                                        <ul>
+                                            <li>
+                                                <Link to="/">Sub Link</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="/">Sub Link 2</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li>
                                     <Link to="/">About Us</Link>
