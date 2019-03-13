@@ -8,7 +8,7 @@ import image from '../img/cardImage.jpg';
 const IndexPage = () => {
   return (
     <Layout>
-      <div className="s-body--internal">
+      <div className="s-body s-body--internal">
         <Section
           theme="dark"
           image={image}
