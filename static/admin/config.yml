@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: andrewstanton/cirrus-design
-  branch: master
+  branch: develop
 
 media_folder: static/img
 public_folder: /img
