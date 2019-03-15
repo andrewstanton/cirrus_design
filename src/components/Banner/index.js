@@ -6,10 +6,10 @@ const renderItems = (items) => {
     });
 };
 
-const Banner = () => (
+const Banner = ({image}) => (
     <section className="banner">
         
-        <div className="banner_slide">
+        <div className="banner_slide" style={{ backgroundImage: `url("${ image }")` }}>
             <div className="banner_slide_overlay">
                 <h1 className="banner_slide_title">Quality Design, Done Right The First Time</h1>
                 <h2 className="banner_slide_subtitle">Here is another little title that goes another here</h2>

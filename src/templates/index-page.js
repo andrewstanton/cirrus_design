@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
 import Banner from '../components/Banner'
+import image from '../img/cardImage.jpg'
 
 const renderBlocks = (homeblocks) => {
   return homeblocks.map(block => (
@@ -29,7 +30,9 @@ const renderSections = (homesections) => {
 
 const IndexPageTemplate = ({homeblocks, homesections, aboutsection}) => (
   <div className="s-body">
-    <Banner />
+    
+    <Banner image={ image } />
+    
     {
     
       homeblocks ? 
