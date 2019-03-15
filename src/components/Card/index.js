@@ -1,47 +1,56 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const classNames = (large, small) => {
+const classNames = (large, small, horizontal) => {
     const largeClass = large ? `card--large` : '';
     const smallClass = small ? `card--small` : '';
-    return `card ${largeClass} ${smallClass}`;
+    const horClass = horizontal ? `card--x` : '';
+    return `card ${largeClass} ${smallClass} ${horClass}`;
 }
 
-const Card = ({large, title, image, subtitle, buttonText, children, small}) => (
-    <div className={ classNames(large, small ) }>
-        
+const Card = ({large, title, image, subtitle, buttonText, children, small, horizontal}) => (
+    <div className={ classNames(large, small, horizontal ) }>
         {
-            image ?
+            image && !horizontal ?
             <div className="card_image" style={{ backgroundImage: `url("${ image }")`}}></div> : null
         }
 
         {
-            title ?
-            <h3 className="card_title">
-                { title }
-            </h3> : null
+            image && horizontal ?
+            <div className="card_image">
+                <img src={image} alt="Image"/>
+            </div> : null
         }
 
-        {
-            subtitle ?
-            <h4 className="card_subtitle">
-                { subtitle }
-            </h4> : null
-        }
+        <div className="card_content">
+            {
+                title ?
+                <h3 className="card_title">
+                    { title }
+                </h3> : null
+            }
 
-        {
-            children ?
-            <p className="card_description">
-                { children }
-            </p> : null
-        }
+            {
+                subtitle ?
+                <h4 className="card_subtitle">
+                    { subtitle }
+                </h4> : null
+            }
 
-        {
-            buttonText ? 
-            <button className="btn btn--default">
-                { buttonText }
-            </button> : null
-        }
+            {
+                children ?
+                <p className="card_description">
+                    { children }
+                </p> : null
+            }
+
+            {
+                buttonText ? 
+                <button className="btn btn--default">
+                    { buttonText }
+                </button> : null
+            }
+        </div>
     </div>
 )
 

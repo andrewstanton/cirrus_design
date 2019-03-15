@@ -1,6 +1,11 @@
 /**
  * Base Styles
  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     background-color: $bg_grey;
     color: $white;

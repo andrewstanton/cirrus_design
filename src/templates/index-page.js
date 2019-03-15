@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
+import Banner from '../components/Banner'
 
 const renderBlocks = (homeblocks) => {
   return homeblocks.map(block => (
@@ -28,7 +29,7 @@ const renderSections = (homesections) => {
 
 const IndexPageTemplate = ({homeblocks, homesections, aboutsection}) => (
   <div className="s-body">
-
+    <Banner />
     {
     
       homeblocks ? 
@@ -47,13 +48,16 @@ const IndexPageTemplate = ({homeblocks, homesections, aboutsection}) => (
 
     {
       aboutsection ?
-      <Card 
-        title={ aboutsection.title }
-        image={ aboutsection.image }
-        subtitle={ aboutsection.subtitle }
-        buttonText={ aboutsection.buttontext }>
-        { aboutsection.description }
-      </Card> : null
+      <div className="wrapper">
+        <Card 
+          title={ aboutsection.title }
+          image={ aboutsection.image }
+          subtitle={ aboutsection.subtitle }
+          buttonText={ aboutsection.buttontext }
+          horizontal={ true }>
+          { aboutsection.description }
+        </Card>
+      </div> : null
     }
 
   </div>
