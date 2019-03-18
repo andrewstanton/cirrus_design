@@ -93,3 +93,13 @@
         }
     }
 }
+
+@media screen and (max-width: $mobile_break) {
+    
+    .m-nav {
+        &_menu {
+            display: none;
+        }
+    }
+    
+}

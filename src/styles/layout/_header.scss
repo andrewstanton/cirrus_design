@@ -11,7 +11,7 @@
 
     &_top {
         padding: 0 10px;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.6);
         flex: 1;
         height: $header_top_height;
         flex-direction: row-reverse;
@@ -66,4 +66,16 @@
             }
         }
     }
+}
+
+@media screen and (max-width: $mobile_break) {
+    
+    .s-header {
+        .s-header_logo {
+            flex: 1 0 100%;
+            justify-content: center;
+            display: flex;
+        }
+    }
+    
 }

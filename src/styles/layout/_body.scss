@@ -22,3 +22,14 @@
     }
     
 }
+
+@media screen and (max-width: $mobile_break) {
+    
+    .s-body {
+        &_card-container {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+    }  
+
+}

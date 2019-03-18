@@ -56,3 +56,23 @@
     }
 
 }
+
+@media screen and (max-width: $mobile_break) {
+    .s-footer {
+        &_top {
+            &_wrapper {
+                flex-direction: column;
+                align-content: center;
+                text-align: center;
+            }
+
+            &_links {
+                margin-bottom: 2rem;
+            }
+            
+        }
+        &_heading {
+            margin-bottom: 1rem;
+        }
+    }
+}

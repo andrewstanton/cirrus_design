@@ -80,3 +80,27 @@
     }
 
 }
+
+@media screen and (max-width: $mobile_break) {
+    .card {
+        width: auto;
+        padding: 0;
+
+        &--x {
+            flex-direction: column;
+        }
+
+        &_image {
+            margin-bottom: 0;
+            text-align: center;
+            
+            img {
+                max-width: 100%;
+            }
+        }
+
+        &_content {
+            padding: $card_padding;
+        }
+    }
+}
