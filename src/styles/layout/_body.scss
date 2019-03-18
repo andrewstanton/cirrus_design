@@ -3,6 +3,8 @@
     &_card-container {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+        flex: 1 1 30%;
 
         &--dark {
             background-color: $black;

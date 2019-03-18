@@ -4,44 +4,46 @@ import Layout from '../components/Layout'
 import Card from '../components/Card'
 import Section from '../components/Section'
 
-const renderBlocks = (blocks) => {
-    return blocks.map(block => (
+const renderBlocks = (services) => {
+    return services.map(service => (
         <Card 
-          title={ block.title }
+          title={ service.title }
           small={ true }
-          image={ block.image }
-        />
+          image={ service.image }
+          buttonText={ service.buttontext }
+          buttonLink={ service.buttonlink }
+        >
+            { service.description }
+          </Card>
     ));  
 };
 
 
-const ServiceOverviewPageTemplate = ({ body, image, subbody, subimage, blocks }) => (
+const ServiceOverviewPageTemplate = ({ subtitle, title, body, image, services }) => (
     <div className="s-body s-body--internal">
         <Section
+            title={ title }
+            subtitle={ subtitle }
             image={ image }
         >
             { body }
         </Section>
-        <Section
-            image={ subimage }
-        >
-            { subbody }
-        </Section>
-        <div className="s-body_card-container">
+        <div className="s-body_card-container s-body_card-container--dark">
             { 
-                renderBlocks(blocks)
+                renderBlocks(services)
             }
         </div>
     </div>
 );
 
 const ServiceOverviewPage = ({data}) => {
-    // const { frontmatter } = data.markdownRemark
+    const { frontmatter } = data.markdownRemark
 
     return (
         <Layout>
             <ServiceOverviewPageTemplate
-                
+                { ...frontmatter }
+                body={ data.markdownRemark.rawMarkdownBody }            
             />
         </Layout>
     );
@@ -49,22 +51,22 @@ const ServiceOverviewPage = ({data}) => {
 
 export default ServiceOverviewPage
 
-/*export const serviceOverviewPageQuery = graphql`
+export const serviceOverviewPageQuery = graphql`
     query ServiceOverviewPage($id: String!) {
         markdownRemark(id: { eq: $id }) {
             frontmatter {
-                body
+                title
+                subtitle
                 image
-                subbody
-                subimage
-                blocks {
+                services {
                     title
                     description
-                    image
                     buttontext
-                }       
+                    buttonlink
+                    image
+                }
             }
+            rawMarkdownBody
         }
     }
 `;
-*/

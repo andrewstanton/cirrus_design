@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
 const classNames = (large, small, horizontal) => {
@@ -8,7 +9,7 @@ const classNames = (large, small, horizontal) => {
     return `card ${largeClass} ${smallClass} ${horClass}`;
 }
 
-const Card = ({large, title, image, subtitle, buttonText, children, small, horizontal}) => (
+const Card = ({large, title, image, subtitle, buttonText, children, small, horizontal, buttonLink}) => (
     <div className={ classNames(large, small, horizontal ) }>
         {
             image && !horizontal ?
@@ -46,9 +47,9 @@ const Card = ({large, title, image, subtitle, buttonText, children, small, horiz
 
             {
                 buttonText ? 
-                <button className="btn btn--default">
+                <Link className="btn btn--default" to={ buttonLink || '/' }>
                     { buttonText }
-                </button> : null
+                </Link> : null
             }
         </div>
     </div>
@@ -59,7 +60,7 @@ Card.propTypes = {
     title: PropTypes.string,
     subtitle: PropTypes.string,
     image: PropTypes.string,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.string,
     buttonText: PropTypes.string,
 }
 

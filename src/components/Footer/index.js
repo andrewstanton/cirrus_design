@@ -13,22 +13,22 @@ const Footer = () => (
                     <nav className="f-nav">
                         <ul className="f-nav_menu">
                             <li>
-                                <Link to="/">Sub Link</Link>
+                                <Link to="/">Cirrus Design Home</Link>
                             </li>
                             <li>
-                                <Link to="/">Sub Link</Link>
+                                <Link to="/3d-scanning">3D Scanning</Link>
                             </li>
                             <li>
-                                <Link to="/">Sub Link</Link>
+                                <Link to="/3d-modeling">3D Modeling</Link>
                             </li>
                             <li>
-                                <Link to="/">Sub Link</Link>
+                                <Link to="/engineering">Engineering</Link>
                             </li>
                             <li>
-                                <Link to="/">Sub Link</Link>
+                                <Link to="/about">About</Link>
                             </li>
                             <li>
-                                <Link to="/">Sub Link</Link>
+                                <Link to="/contact">Contac</Link>
                             </li>
                         </ul>
                     </nav>
