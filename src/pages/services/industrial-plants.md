@@ -1,11 +1,7 @@
 ---
 templateKey: service-page
 title: Industrial Plants
-<<<<<<< HEAD
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-=======
-image: /img/3d-scanning-floor-ceiling.jpg
->>>>>>> 131fa6e57c3bbf1c353525adb5f300852ec4b36d
 sectitle: sdf sdf sdf
 secimage: >-
   https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
