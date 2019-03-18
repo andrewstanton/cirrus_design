@@ -1,4 +1,5 @@
 import React from 'react'
+import Content from '../Content';
 
 const classNames = (theme, leftImage, full) => {
     const themeClass = theme ? `section--${theme}` : '';
@@ -18,7 +19,11 @@ const Section = ({children, theme, image, leftImage, title, subtitle, full}) => 
             <div className="section_content">
                 <h1 className="section_title">{ title }</h1>
                 <h2 className="section_subtitle">{ subtitle }</h2>
-                { children }
+
+                <Content>
+                    { children }
+                </Content>
+                
             </div>
 
         </div>

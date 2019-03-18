@@ -36,7 +36,7 @@ const ServiceOverviewPageTemplate = ({ body, image, subbody, subimage, blocks })
 );
 
 const ServiceOverviewPage = ({data}) => {
-    const { frontmatter } = data.markdownRemark
+    // const { frontmatter } = data.markdownRemark
 
     return (
         <Layout>
@@ -47,7 +47,7 @@ const ServiceOverviewPage = ({data}) => {
     );
 }
 
-export default ServicePage
+export default ServiceOverviewPage
 
 /*export const serviceOverviewPageQuery = graphql`
     query ServiceOverviewPage($id: String!) {

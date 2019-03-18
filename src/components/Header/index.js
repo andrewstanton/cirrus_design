@@ -42,74 +42,74 @@ const Header = () => (
                                     <div className="m-nav_dd">
                                         <ul>
                                             <li>
-                                                <Link to="/">Industrial Plants</Link>
+                                                <Link to="/services/industrial-plants">Industrial Plants</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Arch Eng Const (AEC)</Link>
+                                                <Link to="/services/aec">Arch Eng Const (AEC)</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Real Estate</Link>
+                                                <Link to="/services/real-estate">Real Estate</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Reverse Engineering</Link>
+                                                <Link to="/services/reverse-engineering">Reverse Engineering</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Conceptual Design + Testing</Link>
+                                                <Link to="/services/conceptual-design-testing">Conceptual Design + Testing</Link>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
-                                    <Link to="/">3D Modeling</Link>
+                                    <Link to="/3d-modeling-printing">3D Modeling</Link>
                                     <div className="m-nav_dd">
                                         <ul>
                                             <li>
-                                                <Link to="/">3D Modeling Anything</Link>
+                                                <Link to="/services/3d-modeling">3D Modeling Anything</Link>
                                                 <div className="m-nav_dd">
                                                     <ul>
                                                         <li>
-                                                            <Link to="/">Using / ACAD + SW</Link>
+                                                            <Link to="/services/acad-sw">Using / ACAD + SW</Link>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </li>
                                             <li>
-                                                <Link to="/">3D Printing</Link>
+                                                <Link to="/services/3d-printing">3D Printing</Link>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
-                                    <Link to="/">Engineering</Link>
+                                    <Link to="/engineering-design-drafting">Engineering</Link>
                                     <div className="m-nav_dd">
                                         <ul>
                                             <li>
-                                                <Link to="/">Hydro</Link>
+                                                <Link to="/services/hydro">Hydro</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Mechanical</Link>
+                                                <Link to="/services/mechanical">Mechanical</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Electrical</Link>
+                                                <Link to="/services/electrical">Electrical</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">PID's + Machine Controls</Link>
+                                                <Link to="/services/pid-machine-controls">PID's + Machine Controls</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Structural</Link>
+                                                <Link to="/services/structural">Structural</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Other Services</Link>
+                                                <Link to="/services/other-services">Other Services</Link>
                                                 <div className="m-nav_dd">
                                                     <ul>
                                                         <li>
-                                                            <Link to="/">2D Document Scanning</Link>
+                                                            <Link to="/services/2d-document-scanning">2D Document Scanning</Link>
                                                         </li>
                                                         <li>
-                                                            <Link to="/">Project Management</Link>
+                                                            <Link to="/services/project-management">Project Management</Link>
                                                         </li>
                                                         <li>
-                                                            <Link to="/">FEA In Inventor 2019</Link>
+                                                            <Link to="/services/fea-in-inventor-2019">FEA In Inventor 2019</Link>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -118,23 +118,23 @@ const Header = () => (
                                     </div>
                                 </li>
                                 <li>
-                                    <Link to="/">About</Link>
+                                    <Link to="/about">About</Link>
                                     <div className="m-nav_dd">
                                         <ul>
                                             <li>
-                                                <Link to="/">Mission</Link>
+                                                <Link to="/about/mission">Mission</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Equipment</Link>
+                                                <Link to="/about/equipment">Equipment</Link>
                                             </li>
                                             <li>
-                                                <Link to="/">Case Study</Link>
+                                                <Link to="/about/case-study">Case Study</Link>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
-                                    <Link to="/">Contact</Link>
+                                    <Link to="/contact">Contact</Link>
                                 </li>
                             </ul> 
                         </nav>
