@@ -1,6 +1,6 @@
 ---
 templateKey: service-page
-title: Industrial Plants
+title: Arch Eng Const (AEC)
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 sectitle: sdf sdf sdf
 secimage: >-
