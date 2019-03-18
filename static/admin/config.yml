@@ -60,8 +60,10 @@ collections:
       - { label: Title, name: title, widget": string }
       - { label: Image, name: image, widget: image }
       - { label: Body, name: body, widget: markdown }
-      - { label: "Sub Image", name: subimage, widget: image }
-      - { label: "Sub Body", name: subbody, widget: markdown }
+      - { label: "Secondary Title", name: sectitle, widget: string }
+      - { label: "Secondary Image", name: secimage, widget: image }
+      - { label: "Secondary Body", name: secbody, widget: markdown }
+      - { label: "Blocks", name: blocks, widget: list, fields: [{ label: Title, name: subtitle, widget: string}, {label: Description, name: description, widget: text }, { label: Image, name: image, widget: image }]}
       
       #- file: "src/pages/products/index.md"
       #  label: "Products Page"

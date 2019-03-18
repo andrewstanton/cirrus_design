@@ -3,29 +3,33 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Section from '../components/Section'
 
-const ServicePageTemplate = ({ body, image, subbody, subimage }) => (
+const ServicePageTemplate = ({title, body, image, secbody, secimage, sectitle }) => (
     <div className="s-body s-body--internal">
         <Section
             image={ image }
+            title={ title }
         >
             { body }
         </Section>
         <Section
-            image={ subimage }
+            title={ sectitle }
+            image={ secimage }
+            theme="dark"
+            leftImage={ true }
         >
-            { subbody }
+            { secbody }
         </Section>
     </div>
 );
 
 const ServicePage = ({data}) => {
-    console.log(data)
     const { frontmatter } = data.markdownRemark
 
     return (
         <Layout>
             <ServicePageTemplate
                 { ...frontmatter }
+                body={ data.markdownRemark.rawMarkdownBody }
             />
         </Layout>
     );
@@ -39,8 +43,16 @@ export const servicePageQuery = graphql`
             frontmatter {
                 title
                 image
-                subimage
+                secbody
+                sectitle
+                secimage
+                blocks {
+                    subtitle
+                    description
+                    image
+                }
             }
+            rawMarkdownBody
         }
     }
 `;
