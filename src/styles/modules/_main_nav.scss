@@ -97,9 +97,48 @@
 @media screen and (max-width: $mobile_break) {
     
     .m-nav {
+        height: auto;
+        background-color: lighten($black, 10%);
+        margin-left: -1rem;
+        margin-right: -1rem;
+        box-shadow: 4px 0 8px rgba(0, 0, 0, 0.8);
+
         &_menu {
             display: none;
+
+            &--openmenu {
+                display: block;
+                border-bottom: 2px solid $white;
+            }
+            
+            li {
+                height: auto;
+                flex-direction: column;
+            
+                a {
+                    padding: 1.5rem 1rem;
+                }
+            }
+        }
+
+        &_dd {
+            width: auto;
+            margin: 0 1rem;
+            display: block;
+            position: initial;
+            padding: 0;
+
+            ul {
+                padding: 0;
+
+                li {
+                    padding: 0;
+                    a {
+                        padding: 1rem 2rem;
+                    }
+                }
+            }
         }
     }
-    
+
 }
