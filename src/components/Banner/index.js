@@ -24,7 +24,7 @@ const renderItems = (slides) => {
 };
 
 const Banner = ({slides}) => {
-    const slider = require('../../scripts/slider');
+    // const slider = require('../../scripts/slider');
     return (
         <section className="banner">
             {
