@@ -14,6 +14,8 @@ $font_base_size: 14px;
 $white: #FFFFFF;
 $black: #000000;
 $yellow: #ffe000;
+$grey: #464646;
+$red: #e20f0f;
 
 // Background
 $bg_grey: #29292a;
@@ -27,13 +29,14 @@ $sc_dark: #111111;
 
 
 // Button colors
-$button_default: #464646;
+$button_default: $grey;
 
 // Dimensions
 $max_container_width: 1284px;
 $header_height: 120px;
 $header_top_height: 50px;
 $header_bottom_height: 70px;
+$default_input_height: 36px;
 
 $mobile_break: 800px;
 

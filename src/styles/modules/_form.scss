@@ -1,0 +1,41 @@
+.form {
+
+    &_input {
+        position: relative;
+        display: flex;
+        flex:1;
+        flex-direction: column;
+        margin-bottom: $margin_standard;
+
+        label {
+            font-size: 0.8rem;
+            color: $grey;
+            padding:  0.5rem 0;
+            display: block;
+            font-weight: 100;
+        }
+
+        input, select {
+            height: $default_input_height;
+            border-radius: 0;
+            border: 1px solid lighten($grey, 50%);
+            padding: 0 12px;
+            font-size: 1rem;
+            display: block;
+            color: lighten($grey, 30%);
+
+            &:focus {
+                outline: 0;
+                color: $grey;
+                border-color: $grey;
+            }
+        }
+    }
+
+    &_input--danger {
+        input {
+            border: $red;
+        }
+    }
+
+}
