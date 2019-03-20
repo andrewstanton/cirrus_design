@@ -15,7 +15,7 @@ const ContactPageTemplate = ({ subtitle, title, body, helmet }) => (
     >
       { body }
     </Section>
-    <div className="s-body_card-container s-body_card-container--dark">
+    <div className="wrapper">
         <ContactForm />
     </div>
   </div>

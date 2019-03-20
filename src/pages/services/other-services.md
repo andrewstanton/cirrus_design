@@ -1,41 +1,29 @@
 ---
 templateKey: overview-page
-title: 3D Scanning
+title: Other Services
 subtitle: Here is a subtitle
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 services:
-    - title: Industrial Plants
+    - title: 2D Dcoument Scanning
       description:  >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
         ullamcorper a ultrices  vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
-      buttonlink: services/industrial-plants
+      buttonlink: services/2d-document-scanning
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    - title: Arch Eng Const (AEC)
+    - title: Project Management
       description:  >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
         ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
-      buttonlink: services/aec 
+      buttonlink: services/project-management
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    - title: Real Estate
+    - title: FEA In Inventor 2019
       description:  >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
         ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis 
       buttontext: LEARN MORE
-      buttonlink: services/real-estate
-      image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    - title: Reverse Engineering
-      description:  >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
-      buttontext: LEARN MORE
-      buttonlink: services/reverse-engineering
-      image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    - title: Conceptual Design + Testing
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
-      buttontext: LEARN MORE
-      buttonlink: services/conceptual-design-testing
+      buttonlink: services/fea-in-inventor-2019
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nunc faucibus turpis hendrerit facilisis. Nunc eget erat massa. Suspendisse sed eros elit. Sed pellentesque ipsum at est commodo feugiat. Aenean a metus vitae nisi dignissim tristique a eu odio. Maecenas at nunc nec purus volutpat porta vitae vel neque. Morbi risus velit, suscipit sed consequat quis, gravida ac dui. Etiam fringilla semper sapien, a aliquam justo viverra id. Integer gravida neque quis massa elementum, convallis porta arcu lobortis. Maecenas pulvinar sapien orci, sit amet molestie nibh condimentum in. Morbi laoreet dui lacus, quis dignissim leo imperdiet feugiat. Vestibulum suscipit dolor a velit semper suscipit.
