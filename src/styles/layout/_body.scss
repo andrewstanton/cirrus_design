@@ -3,6 +3,8 @@
     &_card-container {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+        flex: 1 1 30%;
 
         &--dark {
             background-color: $black;
@@ -19,4 +21,15 @@
         padding-top: $header_height;
     }
     
+}
+
+@media screen and (max-width: $mobile_break) {
+    
+    .s-body {
+        &_card-container {
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+    }  
+
 }

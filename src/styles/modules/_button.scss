@@ -4,13 +4,30 @@
     max-width: $btn_max_width;
     font-size: 1rem;
     text-transform: uppercase;
+    transition: all 0.2s;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: $font_one;
 
     &--default {
         background-color: $button_default;
         border: $white 1px solid;
         color: $white;
+
         &:hover {
-            background-color: darken($button_default, 20%);
+            background-color: $yellow;
+            color: $black;
+        }
+    }
+
+    &--link {
+        background-color: transparent;
+        color: $white;
+
+        &:hover {
+            background-color: transparent;
+            color: darken($white, 15%);
         }
     }
 

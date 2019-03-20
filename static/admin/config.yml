@@ -39,6 +39,32 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "industrial-plants-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "serviceoverview"
+    label: "Service Overview"
+    folder: "src/pages/service-overview"
+    create: true
+    fields: 
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "service-overview-page"}
+      - { label: Title, name: title, widget": string }
+      - { label: Image, name: image, widget: image }
+      - { label: Body, name: body, widget: markdown }
+      - { label: "Services", name: blocks, widget: list, fields: [{ label: Title, name: title, widget: string}, {label: Description, name: description, widget: text }, { label: Image, name: image, widget: image }, { label: "Button Text", name: buttontext, widget: string }]}
+
+  - name: "services"
+    label: "Service"
+    folder: "src/pages/services"
+    create: true
+    fields: 
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "service-page"}
+      - { label: Title, name: title, widget": string }
+      - { label: Image, name: image, widget: image }
+      - { label: Body, name: body, widget: markdown }
+      - { label: "Secondary Title", name: sectitle, widget: string }
+      - { label: "Secondary Image", name: secimage, widget: image }
+      - { label: "Secondary Body", name: secbody, widget: markdown }
+      - { label: "Blocks", name: blocks, widget: list, fields: [{ label: Title, name: subtitle, widget: string}, {label: Description, name: description, widget: text }, { label: Image, name: image, widget: image }]}
+      
       #- file: "src/pages/products/index.md"
       #  label: "Products Page"
       #  name: "products"
