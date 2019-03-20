@@ -4,8 +4,9 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Section from '../components/Section'
+import ContactForm from '../components/ContactForm'
 
-const NormalPageTemplate = ({ subtitle, title, body, helmet }) => (
+const ContactPageTemplate = ({ subtitle, title, body, helmet }) => (
   <div className="s-body s-body--internal">
     { helmet || '' }
     <Section 
@@ -14,10 +15,13 @@ const NormalPageTemplate = ({ subtitle, title, body, helmet }) => (
     >
       { body }
     </Section>
+    <div className="s-body_card-container s-body_card-container--dark">
+        <ContactForm />
+    </div>
   </div>
 );
 
-const NormalPage = ({data}) => {
+const ContactPage = ({data}) => {
     const { frontmatter } = data.markdownRemark;
 
     return(
