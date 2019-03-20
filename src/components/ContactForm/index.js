@@ -20,7 +20,7 @@ class ContactForm extends Component {
 
     render() {
         return (
-            <form className="form" name="contact" action="/thank-you" data-netlify-recaptcha="true" data-netlify="true">
+            <form className="form mt" name="contact" action="/thank-you" data-netlify-recaptcha="true" data-netlify="true">
                 <div className="form_input">
                     <label>Your Name *</label>
                     <input type="text" name="name"
@@ -39,7 +39,7 @@ class ContactForm extends Component {
                         required onChange={ this.handleChange }></textarea>
                 </div>
 
-                <button className="btn btn--default btn--full" type="submit"
+                <button className="btn btn--default btn--block btn--lg" type="submit"
                     disabled={ this.isDisabled() }>
                     Start The Conversation
                 </button>

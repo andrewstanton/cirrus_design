@@ -12,9 +12,12 @@ const Section = ({children, theme, image, leftImage, title, subtitle, full}) => 
     <section className={ classNames(theme, leftImage, full) }>
         <div className="wrapper section_wrapper">
 
-            <div className="section_image">
-                <img src={image} alt="Image Here" className="section_image"/>
-            </div>
+            { 
+                image ?
+                <div className="section_image">
+                    <img src={image} alt="Image Here" className="section_image"/>
+                </div> : null
+            }
             
             <div className="section_content">
                 <h1 className="section_title">{ title }</h1>

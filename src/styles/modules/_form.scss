@@ -1,4 +1,5 @@
 .form {
+    flex: 1;
 
     &_input {
         position: relative;
@@ -8,14 +9,15 @@
         margin-bottom: 1rem;
 
         label {
-            font-size: 1rem;
+            font-size: 1.25rem;
             color: $white;
             padding:  0.5rem 0;
             display: block;
-            font-weight: 100;
+            font-weight: 500;
+            font-family: $font_one;
         }
 
-        input, select {
+        input, select, textarea {
             height: $default_input_height;
             border-radius: 0;
             border: 1px solid lighten($grey, 50%);
@@ -23,6 +25,7 @@
             font-size: 1rem;
             display: block;
             color: lighten($grey, 30%);
+            font-family: $font_two;
 
             &:focus {
                 outline: 0;
@@ -30,12 +33,22 @@
                 border-color: $grey;
             }
         }
+
+        textarea {
+            height: 200px;
+            resize: none;
+            padding: 12px;
+        }
     }
 
     &_input--danger {
         input {
             border: $red;
         }
+    }
+
+    button[type="submit"] {
+        margin-top: 2rem;
     }
 
 }

@@ -36,8 +36,13 @@
     }
 
     &--block {
-        width: auto;
+        max-width: none;
         display: block;
+    }
+
+    &--lg {
+        font-size: 1.2rem;
+        padding: 0.8rem;
     }
     
 }

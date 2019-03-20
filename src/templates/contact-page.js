@@ -15,8 +15,12 @@ const ContactPageTemplate = ({ subtitle, title, body, helmet }) => (
     >
       { body }
     </Section>
-    <div className="wrapper">
-        <ContactForm />
+    <div className="section section--dark">
+        <div className="wrapper wrapper--no-flex">
+            <h1 className="h1">Have Us Contact You</h1>
+            <p className="mt">Fill out the information below and have us contact you!</p>
+            <ContactForm />
+        </div>
     </div>
   </div>
 );

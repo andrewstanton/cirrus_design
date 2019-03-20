@@ -126,6 +126,7 @@ query IndexPageTemplate {
           image
           subtitle
           title
+          buttonlink
         }
         aboutsection {
           buttontext
@@ -133,6 +134,7 @@ query IndexPageTemplate {
           image
           subtitle
           title
+          buttonlink
         } 
       }
   }
