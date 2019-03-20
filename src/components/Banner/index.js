@@ -1,25 +1,28 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const renderItems = (items) => {
-    return items.map(i => {
-
+    return items.map(item => {
+        <div className="banner_slide" style={{ backgroundImage: `url("${ item.image }")` }}>
+            <div className="banner_slide_overlay">
+                <h1 className="banner_slide_title">{ item.title }</h1>
+                <h2 className="banner_slide_subtitle">{ item.subtitle }</h2>
+                <p className="banner_slide_text">
+                    { item.description }
+                </p>
+                <Link className="btn btn--default btn--margin-top" to={ item.buttonlink }>
+                    { item.buttontext }
+                </Link>
+            </div>
+        </div>
     });
 };
 
-const Banner = ({image}) => (
+const Banner = ({slides}) => (
     <section className="banner">
-        
-        <div className="banner_slide" style={{ backgroundImage: `url("${ image }")` }}>
-            <div className="banner_slide_overlay">
-                <h1 className="banner_slide_title">Quality Design, Done Right The First Time</h1>
-                <h2 className="banner_slide_subtitle">Here is another little title that goes another here</h2>
-                <p className="banner_slide_text">hkjhdkjfh skdjfh ksjdhfksjhd fkjshd kfjshd kfjhsdkjfhskdjhf ksjdh fksjdh fkjsh dfkjsh dfkjhs ddkfj  hskdhfskdjhf ksjdhf kjsdhfkjshd kfjhs dkfjhs dkjfh skdjhf</p>
-                <button className="btn btn--default btn--margin-top">
-                    Discover Our 3D Services
-                </button>
-            </div>
-        </div>
-
+        {
+            renderItems(slides)
+        }
     </section>
 )
 
