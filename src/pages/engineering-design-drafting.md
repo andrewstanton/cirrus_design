@@ -1,41 +1,55 @@
 ---
-templateKey: service-overview-page
+templateKey: overview-page
 title: Engineering / Design / Drafting
 subtitle: Here is a subtitle
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 services:
     - title: Hydro
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/hydro
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: Mechanical
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/mechanical
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: Electrical
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/electrical
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: PID's + Machine Controls
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/pid-machine-controls.md 
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: Structural
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/structural
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: 2D Document Scanning
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/2d-document-scanning
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: Project Management
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/project-management
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg

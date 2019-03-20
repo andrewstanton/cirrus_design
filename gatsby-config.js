@@ -5,6 +5,10 @@ module.exports = {
     facebook: 'http://facebook.com',
     twitter: 'http://twitter.com',
     linkedin: 'http://linkedin.com',
+    phone: "509-368-9784",
+    address_one: "123 Main St",
+    address_two: "Any City, USA 12345",
+    email: "email@cirrusdesign.net",
   },
   plugins: [
     'gatsby-plugin-react-helmet',

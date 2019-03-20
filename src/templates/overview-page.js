@@ -19,7 +19,7 @@ const renderBlocks = (services) => {
 };
 
 
-const ServiceOverviewPageTemplate = ({ subtitle, title, body, image, services }) => (
+const OverviewPageTemplate = ({ subtitle, title, body, image, services }) => (
     <div className="s-body s-body--internal">
         <Section
             title={ title }
@@ -36,12 +36,12 @@ const ServiceOverviewPageTemplate = ({ subtitle, title, body, image, services })
     </div>
 );
 
-const ServiceOverviewPage = ({data}) => {
+const OverviewPage = ({data}) => {
     const { frontmatter } = data.markdownRemark
 
     return (
         <Layout>
-            <ServiceOverviewPageTemplate
+            <OverviewPageTemplate
                 { ...frontmatter }
                 body={ data.markdownRemark.rawMarkdownBody }            
             />
@@ -49,9 +49,9 @@ const ServiceOverviewPage = ({data}) => {
     );
 }
 
-export default ServiceOverviewPage
+export default OverviewPage
 
-export const serviceOverviewPageQuery = graphql`
+export const overviewPageQuery = graphql`
     query ServiceOverviewPage($id: String!) {
         markdownRemark(id: { eq: $id }) {
             frontmatter {

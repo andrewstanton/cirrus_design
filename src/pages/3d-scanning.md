@@ -1,26 +1,34 @@
 ---
-templateKey: service-overview-page
+templateKey: overview-page
 title: 3D Scanning
 subtitle: Here is a subtitle
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 services:
     - title: Industrial Plants
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/industrial-plants
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: Arch Eng Const (AEC)
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/aec 
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: Real Estate
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis 
       buttontext: LEARN MORE
       buttonlink: services/real-estate
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: Reverse Engineering
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
       buttonlink: services/reverse-engineering
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg

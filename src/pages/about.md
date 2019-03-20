@@ -1,22 +1,29 @@
 ---
 templateKey: overview-page
-title: 3D Modeling + Printing
-subtitle: Here is a subtitle
+title: About Us
+subtitle: About Us Subtitle Here
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 services:
-    - title: 3D Modeling Anything
-      description:  >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
+    - title: Our Mission
+      description: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+          ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
-      buttonlink: services/3d-modeling
+      buttonlink: mission
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    - title: 3D Printing
+    - title: Equipment
       description:  >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
         ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
       buttontext: LEARN MORE
-      buttonlink: services/3d-printing 
+      buttonlink: services/mechanical
+      image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+    - title: Case Study
+      description:  >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
+      buttontext: LEARN MORE
+      buttonlink: services/electrical
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nunc faucibus turpis hendrerit facilisis. Nunc eget erat massa. Suspendisse sed eros elit. Sed pellentesque ipsum at est commodo feugiat. Aenean a metus vitae nisi dignissim tristique a eu odio. Maecenas at nunc nec purus volutpat porta vitae vel neque. Morbi risus velit, suscipit sed consequat quis, gravida ac dui. Etiam fringilla semper sapien, a aliquam justo viverra id. Integer gravida neque quis massa elementum, convallis porta arcu lobortis. Maecenas pulvinar sapien orci, sit amet molestie nibh condimentum in. Morbi laoreet dui lacus, quis dignissim leo imperdiet feugiat. Vestibulum suscipit dolor a velit semper suscipit.
