@@ -24,6 +24,7 @@ const renderSections = (homesections) => {
       title={ block.title }
       subtitle={ block.subtitle }
       buttonText={ block.buttontext }
+      buttonLink={block.buttonlink }
       image={ block.image }
       large={ true }
       key={ix}>
@@ -61,6 +62,7 @@ const IndexPageTemplate = ({slides, homeblocks, homesections, aboutsection}) => 
           image={ aboutsection.image }
           subtitle={ aboutsection.subtitle }
           buttonText={ aboutsection.buttontext }
+          buttonLink={ aboutsection.buttonlink }
           horizontal={ true }>
           { aboutsection.description }
         </Card>
@@ -73,7 +75,6 @@ const IndexPageTemplate = ({slides, homeblocks, homesections, aboutsection}) => 
 const IndexPage = ({data}) => {
   const { frontmatter } = data.markdownRemark
   const { siteMetadata } = data.site;
-  const slider = require('../scripts/slider');
 
   return (
     <Layout>

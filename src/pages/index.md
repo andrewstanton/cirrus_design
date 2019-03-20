@@ -11,18 +11,18 @@ slides:
     buttontext: Discover 3D Scanning
     buttonlink: /3d-scanning
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/slide-temp.jpg
-    title: Quality Design, Done Right The First Time
-    subtitle: design process is rooted in three-dimensional design and drafting
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-3d-printing.jpg
+    title: High Quality 3D Modeling Printing
+    subtitle: sub title will be place here
     description: >-
       We use our collective 30  plus years of experience and the most up 
       to date technologies to offer our clients the highest quality service.
     buttontext: Discover 3D Modeling
     buttonlink: /3d-modeling-printing
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/slide-temp.jpg
-    title: Quality Design, Done Right The First Time
-    subtitle: design process is rooted in three-dimensional design and drafting
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
+    title: Our Engineering, Design & Drafting Services
+    subtitle: view the page by clicking button down below
     description: >-
       We use our collective 30  plus years of experience and the most up 
       to date technologies to offer our clients the highest quality service.
@@ -41,6 +41,7 @@ homeblocks:
     title: Project Management
 homesections:
   - buttontext: Learn More
+    buttonlink: /3d-scanning
     description: >-
       Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum
       facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips
@@ -50,6 +51,7 @@ homesections:
     subtitle: Full 3D walk throughs
     title: '3D Scanning, From Floor to Ceiling'
   - buttontext: Learn More
+    buttonlink: /3d-modeling-printing
     description: >-
       Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum
       facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips
@@ -60,6 +62,7 @@ homesections:
     title: 3D Scanning to 3D Printing
 aboutsection:
   buttontext: Learn More
+  buttonlink: /about
   description: "We use our collective 30 \_plus years of experience and the most up to date technologies to offer our clients the highest quality service at competitive rates. \_We pride ourselves in being thorough and accurate so that your project is completed correctly and on time. \_Our design process is rooted in three-dimensional design and drafting using either AutoCAD, Solidworks, or Inventor depending on your needs. \_We also use the latest point cloud technology to improve accuracy and facilitate early visualization. The point cloud technology is also an effective means to document existing conditions and even reverse engineer your products.  "
   image: >-
     https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/about-cirrus-design.jpg

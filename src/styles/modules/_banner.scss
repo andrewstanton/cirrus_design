@@ -6,7 +6,7 @@
 
     &_slide {
         flex: 1;
-        display: none;
+        display: flex;
         opacity: 0;
         top: 0;
         left: 0;
@@ -16,7 +16,7 @@
         background-size: cover;
         background-position: center center;
         width: 100%;
-        transition: all 0.3s;
+        transition: opacity 1s ease-in-out;
     
         &_overlay {
             flex: 1;
@@ -24,6 +24,7 @@
             
             padding: 2rem 0;
             text-align: center;
+            z-index: 80;
         }
 
         &_title {
@@ -47,7 +48,10 @@
         
         &.active {
             opacity: 1;
-            display: flex;
+
+            .banner_slide_overlay {
+                z-index: 150;
+            }
         }
     }
 }
