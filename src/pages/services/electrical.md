@@ -20,14 +20,18 @@ secbody: >-
   arcu sit amet commodo. Quisque accumsan non elit ac varius. Lorem ipsum dolor
   sit amet, consectetur adipiscing elit.
 blocks:
-  - description: jhkkjdhfksj hdkfjhs kdjhf kjsh dkfsdfsdf
+  - description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    subtitle: Another Title
-  - description: sdf sdf sdf sdfassd fasdf asdf saf sdf asf d
+    subtitle: Mini Section 1
+  - description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    subtitle: dsfsdfs d
+    subtitle: Mini Section 2
+  - description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
+    image: >-
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+    subtitle: Mini Section 3
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nunc faucibus turpis hendrerit facilisis. Nunc eget erat massa. Suspendisse sed eros elit. Sed pellentesque ipsum at est commodo feugiat. Aenean a metus vitae nisi dignissim tristique a eu odio. Maecenas at nunc nec purus volutpat porta vitae vel neque. Morbi risus velit, suscipit sed consequat quis, gravida ac dui. Etiam fringilla semper sapien, a aliquam justo viverra id. Integer gravida neque quis massa elementum, convallis porta arcu lobortis. Maecenas pulvinar sapien orci, sit amet molestie nibh condimentum in. Morbi laoreet dui lacus, quis dignissim leo imperdiet feugiat. Vestibulum suscipit dolor a velit semper suscipit.
 
