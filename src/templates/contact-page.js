@@ -23,10 +23,11 @@ const ContactPageTemplate = ({ subtitle, title, body, helmet }) => (
 
 const ContactPage = ({data}) => {
     const { frontmatter } = data.markdownRemark;
-
+    const { siteMetadata } = data.site;
+    
     return(
         <Layout>
-            <NormalPageTemplate 
+            <ContactPageTemplate 
                 { ...frontmatter }
                 body={ data.markdownRemark.rawMarkdownBody }
                 helmet={
@@ -43,10 +44,10 @@ const ContactPage = ({data}) => {
     );
 }
 
-export default NormalPage
+export default ContactPage
 
-export const normalPageQuery = graphql`
-query NormalPageQuery($id: String!) {
+export const contactPageQuery = graphql`
+query ContactPageQuery($id: String!) {
     site {
         siteMetadata {
             title

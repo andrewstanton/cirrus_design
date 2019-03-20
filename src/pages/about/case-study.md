@@ -1,30 +1,23 @@
 ---
-templateKey: overview-page
-title: About Us
-subtitle: About Us Subtitle Here
+templateKey: about-page
+title: Case Study
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-services:
-    - title: Our Mission
-      description: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-          ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
-      buttontext: LEARN MORE
-      buttonlink: about/mission
-      image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    - title: Equipment
-      description:  >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
-      buttontext: LEARN MORE
-      buttonlink: about/equipment
-      image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    - title: Case Study
-      description:  >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-        ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
-      buttontext: LEARN MORE
-      buttonlink: about/case-study
-      image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+sectitle: Sub Section Heading
+secimage: >-
+  https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+secbody: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+  ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis,
+  gravida sed felis in, feugiat finibus risus. Praesent finibus, turpis vitae
+  venenatis maximus, nisl est volutpat leo, a congue quam lorem sed eros. In
+  ultricies eleifend volutpat. In sit amet elementum neque. 
+
+  Praesent ex metus, vestibulum non lorem vel, sagittis iaculis ante. Vestibulum
+  accumsan lacus eu quam hendrerit suscipit quis maximus lorem. Sed eleifend
+  lacus eu libero gravida egestas. In est tortor, efficitur in massa ac, varius
+  convallis lacus. Donec non ipsum a ipsum finibus facilisis. In vestibulum vel
+  arcu sit amet commodo. Quisque accumsan non elit ac varius. Lorem ipsum dolor
+  sit amet, consectetur adipiscing elit.
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nunc faucibus turpis hendrerit facilisis. Nunc eget erat massa. Suspendisse sed eros elit. Sed pellentesque ipsum at est commodo feugiat. Aenean a metus vitae nisi dignissim tristique a eu odio. Maecenas at nunc nec purus volutpat porta vitae vel neque. Morbi risus velit, suscipit sed consequat quis, gravida ac dui. Etiam fringilla semper sapien, a aliquam justo viverra id. Integer gravida neque quis massa elementum, convallis porta arcu lobortis. Maecenas pulvinar sapien orci, sit amet molestie nibh condimentum in. Morbi laoreet dui lacus, quis dignissim leo imperdiet feugiat. Vestibulum suscipit dolor a velit semper suscipit.
 

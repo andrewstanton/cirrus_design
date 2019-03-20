@@ -1,40 +1,76 @@
 import React from 'react'
-import Layout from '../components/Layout';
-import Card from '../components/Card';
-import Section from '../components/Section';
+import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 
-import { graphql } from 'gatsby';
+import Layout from '../components/Layout'
+import Section from '../components/Section'
 
-const AboutPageTemplate = ({ subtitle, title, body, image, services }) => (
-  <div className="s-body s-body--internal">
-    <Section 
-      title={title}
-      subtitle={subtitle}
-      image={image}
-    >
-      { body }
-    </Section>
-    <div className="s-body_card-container s-body_card-container--dark">
-      
+const AboutPageTemplate = ({title, body, image, secbody, secimage, sectitle, helmet }) => (
+    <div className="s-body s-body--internal">
+        { helmet || '' }
+        <Section
+            image={ image }
+            title={ title }
+        >
+            { body }
+        </Section>
+        <Section
+            title={ sectitle }
+            image={ secimage }
+            theme="dark"
+            leftImage={ true }
+        >
+            { secbody }
+        </Section>
     </div>
-  </div>
 );
 
-const AboutPage = () => (
-    <Layout>
-      About Us
-    </Layout>
-)
+const AboutPage = ({data}) => {
+    const { frontmatter } = data.markdownRemark
+    const { siteMetadata } = data.site;
+
+    return (
+        <Layout>
+            <AboutPageTemplate
+                { ...frontmatter }
+                body={ data.markdownRemark.rawMarkdownBody }
+                helmet={
+                    <Helmet titleTemplate={`%s | ${ siteMetadata.title }`}>
+                        <title>{`${ frontmatter.title }`}</title>
+                        <meta
+                            name="description"
+                            content={`${ data.markdownRemark.rawMarkdownBody }`}
+                        />
+                    </Helmet>
+                }
+            />
+        </Layout>
+    );
+}
 
 export default AboutPage
 
-/*export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-      }
+export const aboutPageQuery = graphql`
+    query AboutPage($id: String!) {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+        markdownRemark(id: { eq: $id }) {
+            frontmatter {
+                title
+                image
+                secbody
+                sectitle
+                secimage
+                blocks {
+                    subtitle
+                    description
+                    image
+                }
+            }
+            rawMarkdownBody
+        }
     }
-  }
-`*/
+`;

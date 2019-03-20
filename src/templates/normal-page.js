@@ -19,7 +19,8 @@ const NormalPageTemplate = ({ subtitle, title, body, helmet }) => (
 
 const NormalPage = ({data}) => {
     const { frontmatter } = data.markdownRemark;
-
+    const { siteMetadata } = data.site;
+    
     return(
         <Layout>
             <NormalPageTemplate 

@@ -5,11 +5,11 @@
         display: flex;
         flex:1;
         flex-direction: column;
-        margin-bottom: $margin_standard;
+        margin-bottom: 1rem;
 
         label {
-            font-size: 0.8rem;
-            color: $grey;
+            font-size: 1rem;
+            color: $white;
             padding:  0.5rem 0;
             display: block;
             font-weight: 100;
