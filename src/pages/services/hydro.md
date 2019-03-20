@@ -1,10 +1,10 @@
 ---
 templateKey: service-page
 title: Hydro
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
 sectitle: Sub Section Heading
 secimage: >-
-  https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+  https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/layout.jpg
 secbody: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
   ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis,

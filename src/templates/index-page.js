@@ -1,10 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
+
 import Layout from '../components/Layout'
 import Card from '../components/Card'
 import Banner from '../components/Banner'
 import image from '../img/cardImage.jpg'
-import Helmet from 'react-helmet'
 
 const renderBlocks = (homeblocks) => {
   return homeblocks.map((block, ix) => (
@@ -31,10 +32,10 @@ const renderSections = (homesections) => {
   ));
 }
 
-const IndexPageTemplate = ({homeblocks, homesections, aboutsection}) => (
+const IndexPageTemplate = ({slides, homeblocks, homesections, aboutsection}) => (
   <div className="s-body">
     
-    <Banner image={ image } />
+    <Banner slides={ slides } />
     
     {
     
@@ -86,9 +87,7 @@ const IndexPage = ({data}) => {
       </Helmet>
 
       <IndexPageTemplate
-        homeblocks={ frontmatter.homeblocks }
-        homesections={ frontmatter.homesections }
-        aboutsection={ frontmatter.aboutsection }
+        { ...frontmatter }
       />
       
     </Layout>
@@ -108,6 +107,14 @@ query IndexPageTemplate {
   markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
       frontmatter {
         templateKey
+        slides {
+          title
+          image
+          subtitle
+          description
+          buttontext
+          buttonlink
+        }
         homeblocks {
           image
           title

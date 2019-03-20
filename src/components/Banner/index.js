@@ -1,21 +1,23 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const renderItems = (items) => {
-    return items.map(item => {
-        <div className="banner_slide" style={{ backgroundImage: `url("${ item.image }")` }}>
+const renderItems = (slides) => {
+    return slides.map((slide, ix) => (
+        <div className="banner_slide"
+            key={ ix }
+            style={{ backgroundImage: `url("${ slide.image }")` }}>
             <div className="banner_slide_overlay">
-                <h1 className="banner_slide_title">{ item.title }</h1>
-                <h2 className="banner_slide_subtitle">{ item.subtitle }</h2>
+                <h1 className="banner_slide_title">{ slide.title }</h1>
+                <h2 className="banner_slide_subtitle">{ slide.subtitle }</h2>
                 <p className="banner_slide_text">
-                    { item.description }
+                    { slide.description }
                 </p>
-                <Link className="btn btn--default btn--margin-top" to={ item.buttonlink }>
-                    { item.buttontext }
+                <Link className="btn btn--default btn--margin-top" to={ slide.buttonlink }>
+                    { slide.buttontext }
                 </Link>
             </div>
         </div>
-    });
+    ));
 };
 
 const Banner = ({slides}) => (

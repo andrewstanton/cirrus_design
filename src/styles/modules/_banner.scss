@@ -2,14 +2,21 @@
 .banner {
     height: 100vh;
     min-height: 750px;
+    position: relative;
 
     &_slide {
         flex: 1;
-        display: flex;
+        display: none;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
         align-items: center;
         height: 100%;
         background-size: cover;
         background-position: center center;
+        width: 100%;
+        transition: all 0.3s;
     
         &_overlay {
             flex: 1;
@@ -38,6 +45,10 @@
             margin-top: 1rem;
         }
         
+        &.active {
+            opacity: 1;
+            display: flex;
+        }
     }
 }
 

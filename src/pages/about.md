@@ -2,7 +2,7 @@
 templateKey: overview-page
 title: About Us
 subtitle: About Us Subtitle Here
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
 services:
     - title: Our Mission
       description: >-

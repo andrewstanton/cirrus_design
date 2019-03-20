@@ -2,7 +2,7 @@
 templateKey: overview-page
 title: Other Services
 subtitle: Here is a subtitle
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
 services:
     - title: 2D Dcoument Scanning
       description:  >-
