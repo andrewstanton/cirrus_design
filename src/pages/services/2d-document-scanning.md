@@ -19,15 +19,27 @@ secbody: >-
   arcu sit amet commodo. Quisque accumsan non elit ac varius. Lorem ipsum dolor
   sit amet, consectetur adipiscing elit.
 blocks:
-  - description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
+  - description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis,
+      gravida sed felis in, feugiat finibus risus. Praesent finibus, turpis vitae
+      venenatis maximus, nisl est volutpat leo
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     subtitle: Mini Section 1
-  - description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
+  - description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis,
+      gravida sed felis in, feugiat finibus risus. Praesent finibus, turpis vitae
+      venenatis maximus, nisl est volutpat leo
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     subtitle: Mini Section 2
-  - description: Lorem ipsum dolor sit amet consectetur adipiscing elit.
+  - description: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
+      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis,
+      gravida sed felis in, feugiat finibus risus. Praesent finibus, turpis vitae
+      venenatis maximus, nisl est volutpat leo
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     subtitle: Mini Section 3

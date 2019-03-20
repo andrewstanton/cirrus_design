@@ -5,12 +5,12 @@ subtitle: Here is a subtitle
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 services:
     - title: 3D Modeling Anything
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       buttontext: LEARN MORE
       buttonlink: services/3d-modeling
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
     - title: 3D Printing
-      description: hjkjsdh fkjshd kfjh skdjfh ksdf 
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       buttontext: LEARN MORE
       buttonlink: services/3d-printing 
       image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
