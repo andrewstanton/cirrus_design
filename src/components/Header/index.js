@@ -26,10 +26,18 @@ class Header extends React.Component {
   }
 
   addEvents = () => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
     window.addEventListener("scroll", this.handleScroll);
   };
 
   removeEvents = () => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
     window.removeEventListener("scroll", this.handleScroll);
   };
 
