@@ -1,63 +1,76 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Section from '../components/Section'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
+const AboutPageTemplate = ({title, body, image, secbody, secimage, sectitle, helmet }) => (
+    <div className="s-body s-body--internal">
+        { helmet || '' }
+        <Section
+            image={ image }
+            title={ title }
+        >
+            { body }
+        </Section>
+        <Section
+            title={ sectitle }
+            image={ secimage }
+            theme="dark"
+            leftImage={ true }
+        >
+            { secbody }
+        </Section>
+    </div>
+);
 
-  return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
+const AboutPage = ({data}) => {
+    const { frontmatter } = data.markdownRemark
+    const { siteMetadata } = data.site;
 
-AboutPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
-}
-
-const AboutPage = ({ data }) => {
-  const { markdownRemark: post } = data
-
-  return (
-    <Layout>
-      <AboutPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
-      />
-    </Layout>
-  )
-}
-
-AboutPage.propTypes = {
-  data: PropTypes.object.isRequired,
+    return (
+        <Layout>
+            <AboutPageTemplate
+                { ...frontmatter }
+                body={ data.markdownRemark.rawMarkdownBody }
+                helmet={
+                    <Helmet titleTemplate={`%s | ${ siteMetadata.title }`}>
+                        <title>{`${ frontmatter.title }`}</title>
+                        <meta
+                            name="description"
+                            content={`${ data.markdownRemark.rawMarkdownBody }`}
+                        />
+                    </Helmet>
+                }
+            />
+        </Layout>
+    );
 }
 
 export default AboutPage
 
 export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-      }
+    query AboutPage($id: String!) {
+        site {
+            siteMetadata {
+                title
+            }
+        }
+        markdownRemark(id: { eq: $id }) {
+            frontmatter {
+                title
+                image
+                secbody
+                sectitle
+                secimage
+                blocks {
+                    subtitle
+                    description
+                    image
+                }
+            }
+            rawMarkdownBody
+        }
     }
-  }
-`
+`;
