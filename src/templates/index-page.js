@@ -5,7 +5,6 @@ import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Banner from "../components/Banner";
-import image from "../img/cardImage.jpg";
 
 const renderBlocks = homeblocks => {
   return homeblocks.map((block, ix) => (
@@ -50,8 +49,6 @@ const IndexPageTemplate = ({
       </div>
     )}
 
-<<<<<<< HEAD
-=======
     {aboutsection && (
       <div className="wrapper">
         <Card
@@ -69,7 +66,6 @@ const IndexPageTemplate = ({
   </div>
 );
 
->>>>>>> develop
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
   const { siteMetadata } = data.site;

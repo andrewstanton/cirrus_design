@@ -1,47 +1,17 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import React from "react";
+import Header from "../Header";
+import Footer from "../Footer";
 
-import Header from '../Header'
+import "../../styles/main.sass";
 
-import "../../styles/main.scss"
+const Layout = ({ children }) => (
+  <div className="layout">
+    <Header />
 
-const TemplateWrapper = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query HeadingQuery {
-        site {
-          siteMetadata {
-            title
-            description
-          }
-        }
-      }
-    `}
-    render={data => (
-      <div>
-        <Helmet>
-          <html lang="en" />
-          <title>{ data.site.siteMetadata.title }</title>
-          <meta
-            name="description"
-            content={data.site.siteMetadata.description}
-          />
-          
-          <meta name="theme-color" content="#fff" />
+    <section className="l-content">{children}</section>
 
-          <meta property="og:type" content="business.business" />
-          <meta property="og:title" content={data.site.siteMetadata.title} />
-          <meta property="og:url" content="/" />
-          <meta property="og:image" content="/img/og-image.jpg" />
-        </Helmet>
-        <Header />
-        <div>
-          {children}
-        </div>
-      </div>
-    )}
-  />
-)
+    <Footer />
+  </div>
+);
 
-export default TemplateWrapper
+export default Layout;

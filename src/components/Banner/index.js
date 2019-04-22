@@ -58,7 +58,8 @@ class Banner extends React.Component {
     return slides.map((slide, ix) => {
       return (
         <div
-          className={`banner_slide ${this.state.activeSlide == ix && "active"}`}
+          className={`banner_slide ${this.state.activeSlide === ix &&
+            "active"}`}
           key={ix}
           style={{ backgroundImage: `url("${slide.image}")` }}
         >
