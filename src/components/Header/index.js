@@ -132,8 +132,8 @@ class Header extends React.Component {
                               </Link>
                             </li>
                             <li>
-                              <Link to="/services/real-estate">
-                                Real Estate
+                              <Link to="/services/architectural">
+                                Architectural
                               </Link>
                             </li>
                             <li>
@@ -224,10 +224,7 @@ class Header extends React.Component {
                               <Link to="/about/mission">Mission</Link>
                             </li>
                             <li>
-                              <Link to="/about/equipment">Equipment</Link>
-                            </li>
-                            <li>
-                              <Link to="/about/case-study">Case Study</Link>
+                              <Link to="/about/testimonials">Testimonials</Link>
                             </li>
                           </ul>
                         </div>
