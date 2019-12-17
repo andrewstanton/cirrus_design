@@ -6,19 +6,6 @@ sectitle: Matterport Mid construction scan
 secimage: >-
   https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-1.jpg
 secbody: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-  ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis,
-  gravida sed felis in, feugiat finibus risus. Praesent finibus, turpis vitae
-  venenatis maximus, nisl est volutpat leo, a congue quam lorem sed eros. In
-  ultricies eleifend volutpat. In sit amet elementum neque. 
-
-
-  Praesent ex metus, vestibulum non lorem vel, sagittis iaculis ante. Vestibulum
-  accumsan lacus eu quam hendrerit suscipit quis maximus lorem. Sed eleifend
-  lacus eu libero gravida egestas. In est tortor, efficitur in massa ac, varius
-  convallis lacus. Donec non ipsum a ipsum finibus facilisis. In vestibulum vel
-  arcu sit amet commodo. Quisque accumsan non elit ac varius. Lorem ipsum dolor
-  sit amet, consectetur adipiscing elit.
 blocks:
   - description: >-
       EinScan Hand Scanner Small Applications
@@ -32,6 +19,10 @@ blocks:
     subtitle: Large Applications
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nunc faucibus turpis hendrerit facilisis. Nunc eget erat massa. Suspendisse sed eros elit. Sed pellentesque ipsum at est commodo feugiat. Aenean a metus vitae nisi dignissim tristique a eu odio. Maecenas at nunc nec purus volutpat porta vitae vel neque. Morbi risus velit, suscipit sed consequat quis, gravida ac dui. Etiam fringilla semper sapien, a aliquam justo viverra id. Integer gravida neque quis massa elementum, convallis porta arcu lobortis. Maecenas pulvinar sapien orci, sit amet molestie nibh condimentum in. Morbi laoreet dui lacus, quis dignissim leo imperdiet feugiat. Vestibulum suscipit dolor a velit semper suscipit.
+Architectural Engineering Construction is a multi-disciplinary approach to the planning, design, construction and operation of a building. 3D scanning plays an integral role in the architecture, engineering and construction field, providing data that’s useful for customers whether they are planning new work or updating existing projects.
+
+We help our clients reduce space consumption and offer optimized design services, with fast scan times that create detailed 3D point cloud information. Our web interface technology means it’s easy for our clients to access their scans. And our ability to add tags, hyperlinks and rich text to three-dimensional scans allows for clear jobsite communication.
+
+Description on how scanning can be used to verify throughout the entire construction process. Pre- verification of site, mid- verification that the structure has been completed according to plan and that all the systems have been installed according to plan. Post- verification to see how every piece of equipment will be laid out.
 
 [View Matterport MEP Room Sample](https://my.matterport.com/show/?m=urwL1Q2NQCe)

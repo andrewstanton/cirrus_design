@@ -1,25 +1,20 @@
 ---
 templateKey: overview-page
 title: About Us
-subtitle: About Us Subtitle Here
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
 services:
   - title: Our Mission
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
+      We use our collective 30-plus years of experience and the most up-to-date technologies available to offer our clients the highest quality service at competitive rates. We pride ourselves in being thorough and accurate so that your project is completed correctly and on time.
     buttontext: LEARN MORE
     buttonlink: about/mission
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-  - title: Testimonials
-    description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
-    buttontext: LEARN MORE
-    buttonlink: about/testimonials
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nunc faucibus turpis hendrerit facilisis. Nunc eget erat massa. Suspendisse sed eros elit. Sed pellentesque ipsum at est commodo feugiat. Aenean a metus vitae nisi dignissim tristique a eu odio. Maecenas at nunc nec purus volutpat porta vitae vel neque. Morbi risus velit, suscipit sed consequat quis, gravida ac dui. Etiam fringilla semper sapien, a aliquam justo viverra id. Integer gravida neque quis massa elementum, convallis porta arcu lobortis. Maecenas pulvinar sapien orci, sit amet molestie nibh condimentum in. Morbi laoreet dui lacus, quis dignissim leo imperdiet feugiat. Vestibulum suscipit dolor a velit semper suscipit.
+Cirrus Design provides professional services in the 3D scanning and modeling industries and offers a wide array of engineering services. Our experienced team uses the most up-to-date technologies available to offer our clients the highest quality service at competitive rates.
 
-Vestibulum ornare vestibulum est, vitae rutrum ex pulvinar et. Mauris ac porta nibh. Quisque ullamcorper ligula sed sapien placerat scelerisque. Phasellus commodo, urna non dapibus ornare, felis ligula finibus quam, vitae ultricies sem augue nec velit. Maecenas egestas, leo sit amet vehicula ultricies, neque nulla pellentesque eros, id sollicitudin augue nulla at dui. Aenean vitae mi et arcu gravida vehicula eu commodo lorem. Duis pellentesque, orci ut ultrices finibus, augue augue porttitor justo, at tincidunt purus lectus eget justo.
+Our combination of experience and technical know-how means that we’re uniquely equipped to specialize in 3D scanning and modeling of hydroelectric power plants. Generating accurate 3D maps of hydro plants presents a unique challenge. In some cases, these facilities and their buildings are more than 100 years old and existing documentation is often incorrect or lacking entirely.
+
+Cirrus Design’s ability to record every dimension of a hydro plant within about 1/8th of an inch, thereby generating a truly accurate representation of what exists at the plant, is a massive benefit to our clients.
+
+In addition to our work in three-dimensional scanning and modeling technologies, Cirrus Designs focuses on architectural engineering construction, real estate, reverse engineering, conceptual design testing and 3D printing. We also offer our clients mechanical, electrical and structural engineering services.

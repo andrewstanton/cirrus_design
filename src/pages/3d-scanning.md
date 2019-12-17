@@ -1,42 +1,40 @@
 ---
 templateKey: overview-page
 title: 3D Scanning
-subtitle: Here is a subtitle
+subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
 services:
   - title: Industrial Plants
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices  vitae, pellentesque a ligula. Phasellus eros felis
+      Our 3D scanning technology offers a powerful and effective means to accurately map and plan as-built manufacturing facilities and industrial projects, helping our clients avoid problems and find solutions ahead of the construction phase.
     buttontext: LEARN MORE
     buttonlink: services/industrial-plants
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-4.jpg
   - title: Arch Eng Const (AEC)
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
+      We help our clients reduce space consumption and offer optimized design services, with fast scan times that create detailed 3D point cloud information.
     buttontext: LEARN MORE
     buttonlink: services/aec
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
-  - title: Architectural
+  - title: Real Estate
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
+      Three-dimensional scanning technology has revolutionized the real estate industry. Today’s high-tech 3D scanners are capable of producing digital scans of virtually any building.
     buttontext: LEARN MORE
     buttonlink: services/architectural
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/architectural/house-10.jpg
   - title: Reverse Engineering
     description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
+      Cirrus Design can help your company reverse engineer a product, converting a point cloud into a 3D model.
     buttontext: LEARN MORE
     buttonlink: services/reverse-engineering
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
   - title: Conceptual Design + Testing
-    description: hjkjsdh fkjshd kfjh skdjfh ksdf
+    description: Cirrus Design can take a product design, no matter how complex, and digitally scan it to create a file that designers can use to fine tune that design.
     buttontext: LEARN MORE
     buttonlink: services/conceptual-design-testing
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt nunc faucibus turpis hendrerit facilisis. Nunc eget erat massa. Suspendisse sed eros elit. Sed pellentesque ipsum at est commodo feugiat. Aenean a metus vitae nisi dignissim tristique a eu odio. Maecenas at nunc nec purus volutpat porta vitae vel neque. Morbi risus velit, suscipit sed consequat quis, gravida ac dui. Etiam fringilla semper sapien, a aliquam justo viverra id. Integer gravida neque quis massa elementum, convallis porta arcu lobortis. Maecenas pulvinar sapien orci, sit amet molestie nibh condimentum in. Morbi laoreet dui lacus, quis dignissim leo imperdiet feugiat. Vestibulum suscipit dolor a velit semper suscipit.
+3D scanning technology allows Cirrus Design to capture and analyze the shape and dimensions of a real-world object and generate a highly accurate digitalized model. A 3D model is what is known as a point cloud, or a set of data points created by measuring many points on the external surface of an existing object.
+
+We use multiple products and technologies, including scanners from industry leaders like Matterport and Faro. We can take precise measurements from the field that can be viewed from the comfort of your office. We use AutoCAD, Autodesk Recap, Inventor and Solidworks, and our accurate scanned measurements can be turned into detailed shop drawings.
