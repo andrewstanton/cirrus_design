@@ -9,7 +9,7 @@ import logo from "../../img/logo.png";
 
 class Header extends React.Component {
   state = {
-    toggle: false,
+    toggle: false
   };
 
   constructor(props) {
@@ -51,7 +51,7 @@ class Header extends React.Component {
         left: 0,
         right: 0,
         x: scrollTarget.scrollX,
-        y: scrollTarget.scrollY,
+        y: scrollTarget.scrollY
       };
 
     // If no sticky ref set
@@ -170,51 +170,6 @@ class Header extends React.Component {
                         <Link to="/engineering-design-drafting">
                           Engineering
                         </Link>
-                        <div className="m-nav_dd">
-                          <ul>
-                            <li>
-                              <Link to="/services/hydro">Hydro</Link>
-                            </li>
-                            <li>
-                              <Link to="/services/mechanical">Mechanical</Link>
-                            </li>
-                            <li>
-                              <Link to="/services/electrical">Electrical</Link>
-                            </li>
-                            <li>
-                              <Link to="/services/pid-machine-controls">
-                                PID's + Machine Controls
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/services/structural">Structural</Link>
-                            </li>
-                            <li>
-                              <Link to="/services/other-services">
-                                Other Services
-                              </Link>
-                              <div className="m-nav_dd">
-                                <ul>
-                                  <li>
-                                    <Link to="/services/2d-document-scanning">
-                                      2D Document Scanning
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link to="/services/project-management">
-                                      Project Management
-                                    </Link>
-                                  </li>
-                                  <li>
-                                    <Link to="/services/fea-in-inventor-2019">
-                                      FEA In Inventor 2019
-                                    </Link>
-                                  </li>
-                                </ul>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
                       </li>
                       <li>
                         <Link to="/about">About</Link>

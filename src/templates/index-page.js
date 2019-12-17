@@ -32,23 +32,10 @@ const IndexPageTemplate = ({
   slides,
   homeblocks,
   homesections,
-  aboutsection,
+  aboutsection
 }) => (
   <div className="s-body">
     <Banner slides={slides} />
-
-    {homesections && (
-      <div className="s-body_card-container s-body_card-container--dark">
-        {renderSections(homesections)}
-      </div>
-    )}
-
-    {homeblocks && (
-      <div className="s-body_card-container wrapper">
-        {renderBlocks(homeblocks)}
-      </div>
-    )}
-
     {aboutsection && (
       <div className="wrapper">
         <Card
@@ -101,18 +88,6 @@ export const pageQuery = graphql`
           subtitle
           description
           buttontext
-          buttonlink
-        }
-        homeblocks {
-          image
-          title
-        }
-        homesections {
-          buttontext
-          description
-          image
-          subtitle
-          title
           buttonlink
         }
         aboutsection {
