@@ -2,9 +2,6 @@
 templateKey: service-page
 title: Arch Eng Const (AEC)
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
-sectitle: Matterport Mid construction scan
-secimage: >-
-  https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-1.jpg
 secbody: >-
 blocks:
   - description: >-

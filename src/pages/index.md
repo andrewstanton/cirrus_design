@@ -29,33 +29,6 @@ slides:
     buttontext: Discover Engineering
     buttonlink: /engineering-design-drafting
 
-homeblocks:
-  - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/small-large-projects.jpg
-    title: Small to Large 3D Scanning
-  - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/start-finish.jpg
-    title: Start to Finish Fulfiment
-  - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/project-management.jpg
-    title: Project Management
-homesections:
-  - buttontext: Learn More
-    buttonlink: /3d-scanning
-    description: >-
-      3D scanning technology allows Cirrus Design to capture and analyze the shape and dimensions of a real-world object and generate a highly accurate digitalized model. A 3D model is what is known as a point cloud, or a set of data points created by measuring many points on the external surface of an existing object.
-    image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-    subtitle: Full 3D walk throughs
-    title: "3D Scanning, From Floor to Ceiling"
-  - buttontext: Learn More
-    buttonlink: /3d-modeling-printing
-    description: >-
-      3D printing is revolutionizing production processes in a huge number of industries. A 3D printer builds a three-dimensional object from a computer model using a method called additive manufacturing. One key advantage offered by 3D printing technology is the ability to produce very complex shapes or geometries. Cirrus Design is capable of creating parts for our clients using an Ultimaker 3 Extended 3D printer.
-    image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-3d-printing.jpg
-    subtitle: Making production easier.
-    title: 3D Scanning to 3D Printing
 aboutsection:
   buttontext: Learn More
   buttonlink: /about

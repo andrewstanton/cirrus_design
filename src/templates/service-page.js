@@ -13,6 +13,8 @@ const renderBlocks = blocks => {
   ));
 };
 
+const isNull = variable => variable === "" || variable === null;
+
 const ServicePageTemplate = ({
   title,
   body,
@@ -21,17 +23,18 @@ const ServicePageTemplate = ({
   secimage,
   sectitle,
   helmet,
-  blocks,
+  blocks
 }) => (
   <div className="s-body s-body--internal">
     {helmet || ""}
     <Section image={image} title={title}>
       {body}
     </Section>
-    <Section title={sectitle} image={secimage} theme="dark" leftImage={true}>
-      {secbody}
-    </Section>
-
+    {(!isNull(secbody) || !isNull(sectitle)) && (
+      <Section title={sectitle} image={secimage} theme="dark" leftImage={true}>
+        {secbody}
+      </Section>
+    )}
     <div className="s-body_card-container">{renderBlocks(blocks)}</div>
   </div>
 );
