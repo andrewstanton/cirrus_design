@@ -7,13 +7,13 @@ blocks:
       - Accurate within .05mm or .002in in a fixed position
       - Accurate within .1mm or .004in when handheld
     image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/small-applications.jpg
     subtitle: Small Applications
   - description: >-
       - Accurate within 1mm or .04in
       - Scanning volumn: Up to 8m3
     image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/reverse-1.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/large-application.jpg
     subtitle: Large Applications
 ---
 
