@@ -4,6 +4,8 @@ import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Section from "../components/Section";
 
+const isNull = variable => variable === "" || variable === null;
+
 const renderBlocks = services => {
   return services !== null
     ? services.map(service => (
@@ -20,11 +22,25 @@ const renderBlocks = services => {
     : null;
 };
 
-const OverviewPageTemplate = ({ subtitle, title, body, image, services }) => (
+const OverviewPageTemplate = ({
+  subtitle,
+  sectitle,
+  secbody,
+  secimage,
+  title,
+  body,
+  image,
+  services
+}) => (
   <div className="s-body s-body--internal">
     <Section title={title} subtitle={subtitle} image={image}>
       {body}
     </Section>
+    {(!isNull(secbody) || !isNull(sectitle)) && (
+      <Section title={sectitle} image={secimage} theme="dark" leftImage={true}>
+        {secbody}
+      </Section>
+    )}
     <div className="s-body_card-container s-body_card-container--dark">
       {renderBlocks(services)}
     </div>
@@ -53,6 +69,9 @@ export const overviewPageQuery = graphql`
         title
         subtitle
         image
+        secbody
+        sectitle
+        secimage
         services {
           title
           description

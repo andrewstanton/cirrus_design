@@ -1,29 +1,17 @@
 ---
 templateKey: overview-page
-title: 3D Modeling + Printing
-subtitle:
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
-services:
-  - title: 3D Modeling Anything
-    description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
-    buttontext: LEARN MORE
-    buttonlink: services/3d-modeling
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
-  - title: 3D Printing
-    description: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nunc urna,
-      ullamcorper a ultrices vitae, pellentesque a ligula. Phasellus eros felis
-    buttontext: LEARN MORE
-    buttonlink: services/3d-printing
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+title: 3D Modeling and Printing
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
+secimage: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
+sectitle: 3D Printing
+secbody: >-
+  3D printing is revolutionizing production processes in a huge number of industries. A 3D printer builds a three-dimensional object from a computer model using a method called additive manufacturing. One key advantage offered by 3D printing technology is the ability to produce very complex shapes or geometries. Cirrus Design is capable of creating parts for our clients using an Ultimaker 3 Extended 3D printer.
 ---
 
 Cirrus Design’s highly skilled team can 3D model nearly anything, from small parts and assemblies to large plants and machinery. This allows our customers to create or duplicate almost any item or part, even one with highly complex curves or shapes.
 
 Benefits to having a three-dimensional model:
 
-Allows the user to fully visualize an object
-Conceptual design testing (with link to conceptual design testing page)
-Manufacture directly from the model, using either additive or reductive techniques
+- Allows the user to fully visualize an object
+- [Conceptual design testing](/services/conceptual-design-testing)
+- Manufacture directly from the model, using either additive or reductive techniques

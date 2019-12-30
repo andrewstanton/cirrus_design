@@ -151,20 +151,6 @@ class Header extends React.Component {
                       </li>
                       <li>
                         <Link to="/3d-modeling-printing">3D Modeling</Link>
-                        <div className="m-nav_dd">
-                          <ul>
-                            <li>
-                              <Link to="/services/3d-modeling">
-                                3D Modeling Anything
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/services/3d-printing">
-                                3D Printing
-                              </Link>
-                            </li>
-                          </ul>
-                        </div>
                       </li>
                       <li>
                         <Link to="/engineering-design-drafting">

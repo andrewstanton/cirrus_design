@@ -35,7 +35,9 @@ const ServicePageTemplate = ({
         {secbody}
       </Section>
     )}
-    <div className="s-body_card-container">{renderBlocks(blocks)}</div>
+    {!isNull(blocks) && (
+      <div className="s-body_card-container">{renderBlocks(blocks)}</div>
+    )}
   </div>
 );
 

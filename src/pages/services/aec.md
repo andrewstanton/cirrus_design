@@ -2,18 +2,6 @@
 templateKey: service-page
 title: Arch Eng Const (AEC)
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
-secbody: >-
-blocks:
-  - description: >-
-      EinScan Hand Scanner Small Applications
-    image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-3.jpg
-    subtitle: Small Applications
-  - description: >-
-      EinScan Hand Scanner Large Applications
-    image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-4.jpg
-    subtitle: Large Applications
 ---
 
 Architectural Engineering Construction is a multi-disciplinary approach to the planning, design, construction and operation of a building. 3D scanning plays an integral role in the architecture, engineering and construction field, providing data that’s useful for customers whether they are planning new work or updating existing projects.

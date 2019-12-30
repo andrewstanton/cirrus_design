@@ -28,14 +28,22 @@ const renderSections = homesections => {
   ));
 };
 
-const IndexPageTemplate = ({
-  slides,
-  homeblocks,
-  homesections,
-  aboutsection
-}) => (
+const IndexPageTemplate = ({ slides, hydrosection, aboutsection }) => (
   <div className="s-body">
     <Banner slides={slides} />
+    {hydrosection && (
+      <div className="wrapper">
+        <Card
+          title={hydrosection.title}
+          buttonText={hydrosection.buttontext}
+          buttonLink={hydrosection.buttonlink}
+          image={aboutsection.image}
+          horizontal={true}
+        >
+          {hydrosection.description}
+        </Card>
+      </div>
+    )}
     {aboutsection && (
       <div className="wrapper">
         <Card
@@ -95,6 +103,12 @@ export const pageQuery = graphql`
           description
           image
           subtitle
+          title
+          buttonlink
+        }
+        hydrosection {
+          buttontext
+          description
           title
           buttonlink
         }

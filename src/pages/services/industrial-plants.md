@@ -6,19 +6,7 @@ sectitle: INDUSTRIAL PROCESSING PLANT MATTERPORT WALKTHROUGH
 secimage: >-
   https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-3.jpg
 secbody: >-
-  [Industrial Processing Plant Matterport Walkthrough](https://my.matterport.com/show/?m=YCBLWTM96af)
-
-blocks:
-  - description: >-
-      Plant scan example
-    image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-1.jpg
-    subtitle: Plant Scan
-  - description: >-
-      Take precision measurements in the field
-    image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-2.jpg
-    subtitle: Take Precision Measurements
+  [Generate a 2D blueprint from a 3D scan](https://my.matterport.com/show/?m=YCBLWTM96af)
 ---
 
 Our 3D scanning technology offers a powerful and effective means to gather existing conditions, which includes machine locations, piping, equipment and existing building structure. In our experience, we’ve found that older plants are often lacking accurate prints or drawings.
