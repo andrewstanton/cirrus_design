@@ -2,7 +2,7 @@
 templateKey: overview-page
 title: 3D Modeling and Printing
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
-secimage: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
+secimage: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/3d-printing.png
 sectitle: 3D Printing
 secbody: >-
   3D printing is revolutionizing production processes in a huge number of industries. A 3D printer builds a three-dimensional object from a computer model using a method called additive manufacturing. One key advantage offered by 3D printing technology is the ability to produce very complex shapes or geometries. Cirrus Design is capable of creating parts for our clients using an Ultimaker 3 Extended 3D printer.
