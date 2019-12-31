@@ -3,15 +3,11 @@ templateKey: service-page
 title: Reverse Engineering
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
 blocks:
-  - description: >-
-      - Accurate within .05mm or .002in in a fixed position
-      - Accurate within .1mm or .004in when handheld
+  - description: "<ul><li>Accurate within .05mm or .002in in a fixed position</li><li>Accurate within .1mm or .004in when handheld</li></ul>"
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/small-applications.jpg
     subtitle: Small Applications
-  - description: >-
-      - Accurate within 1mm or .04in
-      - Scanning volumn: Up to 8m3
+  - description: "<ul><li>Accurate within 1mm or .04in</li><li>Scanning volume: Up to 8m<sup>3</sup></li></ul>"
     image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/large-application.jpg
     subtitle: Large Applications

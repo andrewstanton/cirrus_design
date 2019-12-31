@@ -5,8 +5,9 @@ image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/
 sectitle: INDUSTRIAL PROCESSING PLANT MATTERPORT WALKTHROUGH
 secimage: >-
   https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-3.jpg
-secbody: >-
-  [Generate a 2D blueprint from a 3D scan](https://my.matterport.com/show/?m=YCBLWTM96af)
+secbody: '<div class="embed-response"><iframe src="https://www.youtube.com/embed/b7XcP1e8JD0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe></div>
+<a href="https://my.matterport.com/show/?m=YCBLWTM96af" target="_blank">Generate a 2D blueprint from a 3D scan</a>'
+
 ---
 
 Our 3D scanning technology offers a powerful and effective means to gather existing conditions, which includes machine locations, piping, equipment and existing building structure. In our experience, we’ve found that older plants are often lacking accurate prints or drawings.

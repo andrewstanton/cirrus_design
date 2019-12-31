@@ -24,6 +24,11 @@
   &_content {
     flex: 1 1 auto;
 
+    ul {
+      padding-top: 1rem;
+      padding-left: 2rem;
+    }
+
     .btn {
       display: flex;
       justify-content: center;

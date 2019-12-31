@@ -1,6 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
+import { markdown } from "markdown";
+
 import Card from "../components/Card";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
@@ -8,12 +10,14 @@ import Section from "../components/Section";
 const renderBlocks = blocks => {
   return blocks.map(block => (
     <Card title={block.subtitle} small={true} image={block.image}>
-      {block.description}
+      <div dangerouslySetInnerHTML={{ __html: block.description }} />
     </Card>
   ));
 };
 
 const isNull = variable => variable === "" || variable === null;
+
+const renderMarkdown = md => markdown.toHTML(md);
 
 const ServicePageTemplate = ({
   title,
