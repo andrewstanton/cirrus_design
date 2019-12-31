@@ -5,44 +5,17 @@ import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Banner from "../components/Banner";
+import Section from "../components/Section";
 
-const renderBlocks = homeblocks => {
-  return homeblocks.map((block, ix) => (
-    <Card title={block.title} small={true} image={block.image} key={ix} />
-  ));
-};
-
-const renderSections = homesections => {
-  return homesections.map((block, ix) => (
-    <Card
-      title={block.title}
-      subtitle={block.subtitle}
-      buttonText={block.buttontext}
-      buttonLink={block.buttonlink}
-      image={block.image}
-      large={true}
-      key={ix}
-    >
-      {block.description}
-    </Card>
-  ));
-};
+const isNull = variable => variable === "" || variable === null;
 
 const IndexPageTemplate = ({ slides, hydrosection, aboutsection }) => (
   <div className="s-body">
     <Banner slides={slides} />
-    {hydrosection && (
-      <div className="wrapper">
-        <Card
-          title={hydrosection.title}
-          buttonText={hydrosection.buttontext}
-          buttonLink={hydrosection.buttonlink}
-          image={aboutsection.image}
-          horizontal={true}
-        >
-          {hydrosection.description}
-        </Card>
-      </div>
+    {!isNull(hydrosection) && (
+      <Section title={hydrosection.title} theme="dark" leftImage={true}>
+        {hydrosection.description}
+      </Section>
     )}
     {aboutsection && (
       <div className="wrapper">
@@ -107,10 +80,8 @@ export const pageQuery = graphql`
           buttonlink
         }
         hydrosection {
-          buttontext
           description
           title
-          buttonlink
         }
       }
     }
