@@ -1,6 +1,6 @@
 ---
 templateKey: service-page
-title: Arch Eng Const (AEC)
+title: Architectural Engineering Construction (AEC)
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
 ---
 

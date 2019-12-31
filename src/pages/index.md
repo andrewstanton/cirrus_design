@@ -30,8 +30,6 @@ slides:
     buttonlink: /engineering-design-drafting
 
 hydrosection:
-  buttontext: Learn More
-  buttonlink: /hydro
   description: "Cirrus Design provides professional services in the 3D scanning and modeling industries and offers a wide array of engineering services. Our experienced team uses the most up-to-date technologies available to offer our clients the highest quality service at competitive rates.
 
 Our combination of experience and technical know-how means that we’re uniquely equipped to specialize in 3D scanning and modeling of hydroelectric power plants. Generating accurate 3D maps of hydro plants presents a unique challenge. In some cases, these facilities and their buildings are more than 100 years old and existing documentation is often incorrect or lacking entirely. 
