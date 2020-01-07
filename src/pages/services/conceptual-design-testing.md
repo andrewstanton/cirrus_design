@@ -4,13 +4,13 @@ title: Conceptual Design + Testing
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
 blocks:
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/static/img/jet-cloud.jpg
     subtitle: 3D scan of jet boat
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/static/img/jet-render.jpg
     subtitle: 3D model of jet boat
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/static/img/rogerboat.jpg
     subtitle: Aerodynamic testing
 ---
 
