@@ -159,16 +159,6 @@ class Header extends React.Component {
                       </li>
                       <li>
                         <Link to="/about">About</Link>
-                        <div className="m-nav_dd">
-                          <ul>
-                            <li>
-                              <Link to="/about/mission">Mission</Link>
-                            </li>
-                            <li>
-                              <Link to="/about/testimonials">Testimonials</Link>
-                            </li>
-                          </ul>
-                        </div>
                       </li>
                       <li>
                         <Link to="/contact">Contact</Link>

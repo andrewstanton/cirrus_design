@@ -15,7 +15,7 @@ const Section = ({
   leftImage,
   title,
   subtitle,
-  full,
+  full
 }) => (
   <section className={classNames(theme, leftImage, full)}>
     <div className="wrapper section_wrapper">
@@ -29,7 +29,7 @@ const Section = ({
         <h1 className="section_title">{title}</h1>
         <h2 className="section_subtitle">{subtitle}</h2>
 
-        <Content>{children}</Content>
+        {children && <Content>{children}</Content>}
       </div>
     </div>
   </section>
