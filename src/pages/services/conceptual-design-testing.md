@@ -1,7 +1,7 @@
 ---
 templateKey: service-page
 title: Conceptual Design + Testing
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/fea-example-lifting-beam.png
 blocks:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/static/img/jet-cloud.jpg

@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-title: 3D Modeling and Printing
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
+title: 3D Modeling
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/unit-section-view.jpg
 secimage: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/3d-printing.png
 sectitle: 3D Printing
 secbody: >-
@@ -13,5 +13,6 @@ Cirrus Design’s highly skilled team can 3D model nearly anything, from small p
 Benefits to having a three-dimensional model:
 
 - Allows the user to fully visualize an object
+- Verify complete design prior to construction
 - [Conceptual design testing](/services/conceptual-design-testing)
 - Manufacture directly from the model, using either additive or reductive techniques
