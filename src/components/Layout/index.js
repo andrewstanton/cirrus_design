@@ -4,14 +4,16 @@ import Footer from "../Footer";
 
 import "../../styles/main.sass";
 
-const Layout = ({ children }) => (
-  <div className="layout">
-    <Header />
+const Layout = ({ children, location, ...props }) => {
+  return (
+    <div className="layout">
+      <Header current={location.pathname} />
 
-    <section className="l-content">{children}</section>
+      <section className="l-content">{children}</section>
 
-    <Footer />
-  </div>
-);
+      <Footer />
+    </div>
+  );
+};
 
 export default Layout;

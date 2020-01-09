@@ -19,12 +19,12 @@ const ContactPageTemplate = ({ subtitle, title, body, helmet }) => (
   </div>
 );
 
-const ContactPage = ({ data }) => {
+const ContactPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
   const { siteMetadata } = data.site;
 
   return (
-    <Layout>
+    <Layout {...props}>
       <ContactPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

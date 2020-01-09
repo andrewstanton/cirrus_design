@@ -45,12 +45,12 @@ const ServicePageTemplate = ({
   </div>
 );
 
-const ServicePage = ({ data }) => {
+const ServicePage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
   const { siteMetadata } = data.site;
 
   return (
-    <Layout>
+    <Layout {...props}>
       <ServicePageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

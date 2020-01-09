@@ -47,11 +47,11 @@ const OverviewPageTemplate = ({
   </div>
 );
 
-const OverviewPage = ({ data }) => {
+const OverviewPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout {...props}>
       <OverviewPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}

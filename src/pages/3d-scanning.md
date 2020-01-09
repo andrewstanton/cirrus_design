@@ -35,6 +35,6 @@ services:
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
 ---
 
-3D scanning technology allows Cirrus Design to capture and analyze the shape and dimensions of a real-world object and generate a highly accurate digitalized model. A 3D model is what is known as a point cloud, or a set of data points created by measuring many points on the external surface of an existing object.
+3D Scanning produces what is known as a point cloud, or a set of data points created by measuring many points on the external surface of an existing object.
 
 We use multiple products and technologies, including scanners from industry leaders like Matterport and Faro. We can take precise measurements from the field that can be viewed from the comfort of your office. We use AutoCAD, Autodesk Recap, Inventor and Solidworks, and our accurate scanned measurements can be turned into detailed shop drawings.

@@ -34,12 +34,12 @@ const IndexPageTemplate = ({ slides, hydrosection, aboutsection }) => (
   </div>
 );
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
   const { siteMetadata } = data.site;
 
   return (
-    <Layout>
+    <Layout {...props}>
       <Helmet>
         <title>{`${siteMetadata.title}`}</title>
         <meta name="description" content={`${siteMetadata.description}`} />
