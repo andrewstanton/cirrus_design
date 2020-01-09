@@ -2,7 +2,7 @@
 templateKey: overview-page
 title: 3D Scanning
 subtitle:
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/1-hed-section-looking-upstream.jpg
 services:
   - title: Industrial Plants
     description: >-
@@ -21,7 +21,7 @@ services:
       Three-dimensional scanning technology has revolutionized the real estate industry. Today’s high-tech 3D scanners are capable of producing digital scans of virtually any building.
     buttontext: LEARN MORE
     buttonlink: services/architectural
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/architectural/house-10.jpg
+    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/dollhouse-view.jpg
   - title: Reverse Engineering
     description: >-
       Cirrus Design can help your company reverse engineer a product, converting a point cloud into a 3D model.
@@ -32,7 +32,7 @@ services:
     description: Cirrus Design can take a product design, no matter how complex, and digitally scan it to create a file that designers can use to fine tune that design.
     buttontext: LEARN MORE
     buttonlink: services/conceptual-design-testing
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/3d-scanning-floor-ceiling.jpg
+    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/static/img/rogerboat.jpg
 ---
 
 3D Scanning produces what is known as a point cloud, or a set of data points created by measuring many points on the external surface of an existing object.
