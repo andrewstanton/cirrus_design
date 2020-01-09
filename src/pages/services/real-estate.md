@@ -5,7 +5,7 @@ subtitle: Bryce's House
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/425-n-garry-dr-liberty-lake-living-room.jpg
 sectitle: Jared's House
 secimage: >-
-  https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/architectural/arch-3.jpg
+  https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/holiday-hills-dollhouse.jpg
 secbody: >-
   [Click Here To See An Example Of The Services Cirrus Designs Can Provide](https://my.matterport.com/show/?m=kX9mUocrqtv)
 ---
