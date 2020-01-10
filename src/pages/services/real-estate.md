@@ -2,7 +2,8 @@
 templateKey: service-page
 title: Real Estate
 subtitle: Bryce's House
-image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/architectural/house-10.jpg
+image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/425-n-garry-dr-liberty-lake-living-room.jpg
+image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/holiday-hills-living-room.jpg
 sectitle: Jared's House
 secimage: >-
   https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/holiday-hills-dollhouse.jpg

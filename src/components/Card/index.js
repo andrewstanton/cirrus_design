@@ -13,23 +13,24 @@ const Card = ({
   large,
   title,
   image,
+  contain = false,
   subtitle,
   buttonText,
   children,
   small,
   horizontal,
-  buttonLink,
+  buttonLink
 }) => (
   <div className={classNames(large, small, horizontal)}>
     {image && !horizontal ? (
       <div
-        className="card_image"
+        className={`card_image ${contain && "card_image--contain"}`}
         style={{ backgroundImage: `url("${image}")` }}
       />
     ) : null}
 
     {image && horizontal ? (
-      <div className="card_image">
+      <div className={`card_image ${contain && "card_image--contain"}`}>
         <img src={image} />
       </div>
     ) : null}
@@ -56,7 +57,7 @@ Card.propTypes = {
   subtitle: PropTypes.string,
   image: PropTypes.string,
   description: PropTypes.string,
-  buttonText: PropTypes.string,
+  buttonText: PropTypes.string
 };
 
 export default Card;

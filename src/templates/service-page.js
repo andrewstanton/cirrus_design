@@ -9,7 +9,12 @@ import Section from "../components/Section";
 
 const renderBlocks = blocks => {
   return blocks.map(block => (
-    <Card title={block.subtitle} small={true} image={block.image}>
+    <Card
+      title={block.subtitle}
+      small={true}
+      contain={block.contain}
+      image={block.image}
+    >
       <div dangerouslySetInnerHTML={{ __html: block.description }} />
     </Card>
   ));
@@ -23,6 +28,7 @@ const ServicePageTemplate = ({
   title,
   body,
   image,
+  image2,
   secbody,
   secimage,
   sectitle,
@@ -31,7 +37,7 @@ const ServicePageTemplate = ({
 }) => (
   <div className="s-body s-body--internal">
     {helmet || ""}
-    <Section image={image} title={title}>
+    <Section image={image} image2={image2} title={title}>
       {body}
     </Section>
     {(!isNull(secbody) || !isNull(sectitle)) && (
@@ -81,10 +87,12 @@ export const servicePageQuery = graphql`
       frontmatter {
         title
         image
+        image2
         secbody
         sectitle
         secimage
         blocks {
+          contain
           subtitle
           description
           image

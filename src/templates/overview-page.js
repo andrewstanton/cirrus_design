@@ -30,12 +30,22 @@ const OverviewPageTemplate = ({
   title,
   body,
   image,
+  image2,
+  image3,
+  secvideo,
   services
 }) => (
   <div className="s-body s-body--internal">
-    <Section title={title} subtitle={subtitle} image={image}>
+    <Section
+      title={title}
+      subtitle={subtitle}
+      image={image}
+      image2={image2}
+      image3={image3}
+    >
       {body}
     </Section>
+    {secvideo && <Section>{secvideo}</Section>}
     {(!isNull(secbody) || !isNull(sectitle)) && (
       <Section title={sectitle} image={secimage} theme="dark" leftImage={true}>
         {secbody}
@@ -69,9 +79,12 @@ export const overviewPageQuery = graphql`
         title
         subtitle
         image
+        image2
+        image3
         secbody
         sectitle
         secimage
+        secvideo
         services {
           title
           description

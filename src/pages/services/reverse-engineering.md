@@ -5,11 +5,13 @@ image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/
 blocks:
   - description: "<ul><li>Accurate within .05mm or .002in in a fixed position</li><li>Accurate within .1mm or .004in when handheld</li></ul>"
     image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/small-applications.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer-image.jpg
+    contain: true
     subtitle: Small Applications
   - description: "<ul><li>Accurate within 1mm or .04in</li><li>Scanning volume: Up to 8m<sup>3</sup></li></ul>"
     image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/large-application.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/wall-img.jpg
+    contain: true
     subtitle: Large Applications
 ---
 

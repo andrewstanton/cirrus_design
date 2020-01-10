@@ -2,6 +2,8 @@
 templateKey: overview-page
 title: 3D Modeling
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/unit-section-view.jpg
+image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/3d-duplex-panels.jpg
+image3: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/jet-boat-intake.jpg
 secimage: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/3d-printing.png
 sectitle: 3D Printing
 secbody: >-
