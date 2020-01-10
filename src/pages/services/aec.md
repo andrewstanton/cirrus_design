@@ -2,6 +2,7 @@
 templateKey: service-page
 title: Architectural Engineering Construction (AEC)
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
+image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec-example.jpg
 blocks:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/wall-2.jpg
