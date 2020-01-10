@@ -9,7 +9,12 @@ import Section from "../components/Section";
 
 const renderBlocks = blocks => {
   return blocks.map(block => (
-    <Card title={block.subtitle} small={true} image={block.image}>
+    <Card
+      title={block.subtitle}
+      small={true}
+      contain={block.contain}
+      image={block.image}
+    >
       <div dangerouslySetInnerHTML={{ __html: block.description }} />
     </Card>
   ));
@@ -87,6 +92,7 @@ export const servicePageQuery = graphql`
         sectitle
         secimage
         blocks {
+          contain
           subtitle
           description
           image

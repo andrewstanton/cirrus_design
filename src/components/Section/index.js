@@ -13,6 +13,7 @@ const Section = ({
   theme,
   image,
   image2,
+  image3,
   leftImage,
   title,
   subtitle,
@@ -24,6 +25,7 @@ const Section = ({
         <div className="section_image">
           <img src={image} className="section_image" />
           {image2 && <img src={image2} className="section_image" />}
+          {image3 && <img src={image3} className="section_image" />}
         </div>
       ) : null}
 
