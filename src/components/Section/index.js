@@ -18,12 +18,17 @@ const Section = ({
   leftImage,
   title,
   subtitle,
+  addition,
+  imagetitle,
   full
 }) => (
   <section className={classNames(theme, leftImage, full)}>
     <div className="wrapper section_wrapper">
       {image ? (
         <div className="section_image">
+          {imagetitle && (
+            <h1 className="section_title text-center">{imagetitle}</h1>
+          )}
           <img src={image} className="section_image" />
           {image2 && <img src={image2} className="section_image" />}
           {image3 && <img src={image3} className="section_image" />}
@@ -32,15 +37,19 @@ const Section = ({
 
       {video ? (
         <div className="section_image">
-          <video autoPlay height="400px">
-            <source src={video} type="video/mp4" />
-          </video>
+          <div className="embed-response">
+            <video autoPlay loop>
+              <source src={video} type="video/mp4" />
+            </video>
+          </div>
         </div>
       ) : null}
 
       <div className="section_content">
         <h1 className="section_title">{title}</h1>
         <h2 className="section_subtitle">{subtitle}</h2>
+
+        {addition && addition()}
 
         {children && <Content>{children}</Content>}
       </div>

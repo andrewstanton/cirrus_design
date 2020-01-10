@@ -1,7 +1,6 @@
 ---
-templateKey: overview-page
+templateKey: about-page
 title: Our Mission
-video: https://raw.githubusercontent.com/andrewstanton/cirrus-design/develop/static/img/scanning.jpg
 ---
 
 We use our collective 30-plus years of experience and the most up-to-date technologies available to offer our clients the highest quality service at competitive rates. We pride ourselves in being thorough and accurate so that your project is completed correctly and on time.

@@ -107,5 +107,13 @@
     &_content {
       padding: $card_padding;
     }
+
+    &--small {
+      .card_image {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+      }
+    }
   }
 }

@@ -1,14 +1,14 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
-
 import Layout from "../components/Layout";
+import Card from "../components/Card";
 import Section from "../components/Section";
 
-const AboutPageTemplate = ({ title, body, image, video, helmet }) => (
+import video from "../video/logo-animation.mp4";
+
+const AboutPageTemplate = ({ subtitle, title, body }) => (
   <div className="s-body s-body--internal">
-    {helmet || ""}
-    <Section video={video} title={title}>
+    <Section title={title} subtitle={subtitle} video={video}>
       {body}
     </Section>
   </div>
@@ -16,22 +16,12 @@ const AboutPageTemplate = ({ title, body, image, video, helmet }) => (
 
 const AboutPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
-  const { siteMetadata } = data.site;
 
   return (
     <Layout {...props}>
       <AboutPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
-        helmet={
-          <Helmet titleTemplate={`%s | ${siteMetadata.title}`}>
-            <title>{`${frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${data.markdownRemark.rawMarkdownBody}`}
-            />
-          </Helmet>
-        }
       />
     </Layout>
   );
@@ -41,19 +31,22 @@ export default AboutPage;
 
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        subtitle
         image
-        video
-        blocks {
-          subtitle
+        image2
+        image3
+        secbody
+        sectitle
+        secimage
+        secvideo
+        services {
+          title
           description
+          buttontext
+          buttonlink
           image
         }
       }
