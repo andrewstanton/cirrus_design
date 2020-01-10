@@ -11,6 +11,7 @@ const classNames = (theme, leftImage, full) => {
 const Section = ({
   children,
   theme,
+  video,
   image,
   image2,
   image3,
@@ -26,6 +27,14 @@ const Section = ({
           <img src={image} className="section_image" />
           {image2 && <img src={image2} className="section_image" />}
           {image3 && <img src={image3} className="section_image" />}
+        </div>
+      ) : null}
+
+      {video ? (
+        <div className="section_image">
+          <video autoPlay height="400px">
+            <source src={video} type="video/mp4" />
+          </video>
         </div>
       ) : null}
 

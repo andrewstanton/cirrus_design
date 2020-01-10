@@ -5,22 +5,11 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
 
-const AboutPageTemplate = ({
-  title,
-  body,
-  image,
-  secbody,
-  secimage,
-  sectitle,
-  helmet
-}) => (
+const AboutPageTemplate = ({ title, body, image, video, helmet }) => (
   <div className="s-body s-body--internal">
     {helmet || ""}
-    <Section image={image} title={title}>
+    <Section video={video} title={title}>
       {body}
-    </Section>
-    <Section title={sectitle} image={secimage} theme="dark" leftImage={true}>
-      {secbody}
     </Section>
   </div>
 );
@@ -61,9 +50,7 @@ export const aboutPageQuery = graphql`
       frontmatter {
         title
         image
-        secbody
-        sectitle
-        secimage
+        video
         blocks {
           subtitle
           description
