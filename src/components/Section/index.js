@@ -36,7 +36,7 @@ const Section = ({
       ) : null}
 
       {video ? (
-        <div className="section_image">
+        <div className="section_image section_video">
           <div className="embed-response">
             <video autoPlay loop>
               <source src={video} type="video/mp4" />

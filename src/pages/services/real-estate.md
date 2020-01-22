@@ -6,9 +6,8 @@ image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/holiday-hills-living-room.jpg
 sectitle: Jared's House
 secimage: >-
-  https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/holiday-hills-dollhouse.jpg
-secbody: >-
-  [Click Here To See An Example Of The Services Cirrus Designs Can Provide](https://my.matterport.com/show/?m=kX9mUocrqtv)
+  https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/north-holiday.jpg
+secbody: <a href="https://my.matterport.com/show/?m=kX9mUocrqtv" target="_blank">Click Here To See An Example Of The Services Cirrus Designs Can Provide</a>
 ---
 
 Three-dimensional scanning technology has revolutionized the real estate industry, providing true immersive 3D virtual walkthroughs. Today’s high-tech 3D scanners are capable of producing digital scans of virtually any building, from homes to warehouses and everything in between.

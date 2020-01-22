@@ -17,8 +17,14 @@
     max-width: 600px;
 
     img {
+      width: 100%;
       object-fit: contain;
     }
+  }
+
+  &_video {
+    flex-shrink: 0;
+    width: 400px;
   }
 
   &_content {
@@ -34,6 +40,10 @@
       justify-content: center;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .embed-response {
+      min-width: 400px;
     }
   }
 
@@ -80,6 +90,7 @@
   .section {
     &_image {
       margin-bottom: 1rem;
+      width: 500px;
 
       img {
         object-fit: contain;
