@@ -6,7 +6,7 @@ slides:
     title: Quality Design, Done Right The First Time
     subtitle: design process is rooted in three-dimensional design and drafting
     description: >-
-      We use our collective 30  plus years of experience and the most up 
+      We use our collective 30 plus years of experience and the most up 
       to date technologies to offer our clients the highest quality service.
     buttontext: Discover 3D Scanning
     buttonlink: /3d-scanning
@@ -15,7 +15,7 @@ slides:
     title: High Quality 3D Modeling
     subtitle: view the page by clicking button down below
     description: >-
-      We use our collective 30  plus years of experience and the most up 
+      We use our collective 30 plus years of experience and the most up 
       to date technologies to offer our clients the highest quality service.
     buttontext: Discover 3D Modeling
     buttonlink: /3d-modeling-printing
@@ -24,7 +24,7 @@ slides:
     title: Our Engineering, Design & Drafting Services
     subtitle: view the page by clicking button down below
     description: >-
-      We use our collective 30  plus years of experience and the most up 
+      We use our collective 30 plus years of experience and the most up 
       to date technologies to offer our clients the highest quality service.
     buttontext: Discover Engineering
     buttonlink: /engineering-design-drafting

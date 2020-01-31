@@ -35,7 +35,9 @@ const Footer = () => (
                     <Link to="/3d-modeling-printing">3D Modeling</Link>
                   </li>
                   <li>
-                    <Link to="/engineering-design-drafting">Engineering</Link>
+                    <Link to="/engineering-design-drafting">
+                      Design Engineering
+                    </Link>
                   </li>
                   <li>
                     <Link to="/about">About</Link>

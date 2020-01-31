@@ -39,7 +39,7 @@ const nav = [
     uri: `/3d-modeling-printing`
   },
   {
-    label: `Engineering`,
+    label: `Design Engineering`,
     uri: `/engineering-design-drafting`
   },
   {

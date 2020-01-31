@@ -4,7 +4,7 @@ title: Real Estate
 subtitle: Bryce's House
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/425-n-garry-dr-liberty-lake-living-room.jpg
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/holiday-hills-living-room.jpg
-sectitle: Jared's House
+sectitle: 3D Virtual Tour
 secimage: >-
   https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/north-holiday.jpg
 secbody: <a href="https://my.matterport.com/show/?m=kX9mUocrqtv" target="_blank">Click Here To See An Example Of The Services Cirrus Designs Can Provide</a>
