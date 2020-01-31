@@ -51,6 +51,8 @@ const Section = ({
 
         {addition && addition()}
 
+        {console.log({ children })}
+
         {children && <Content>{children}</Content>}
       </div>
     </div>

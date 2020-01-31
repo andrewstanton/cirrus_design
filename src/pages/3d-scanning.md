@@ -12,7 +12,7 @@ services:
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-4.jpg
   - title: Arch Eng Const (AEC)
     description: >-
-      We help our clients reduce space consumption and offer optimized design services, with fast scan times that create detailed 3D point cloud information.
+      We help our clients reduce file space consumption and offer optimized design services, with fast scan times that create detailed 3D point cloud information.
     buttontext: LEARN MORE
     buttonlink: services/aec
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
