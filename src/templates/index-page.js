@@ -5,51 +5,18 @@ import Helmet from "react-helmet";
 import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Banner from "../components/Banner";
-import image from "../img/cardImage.jpg";
+import Section from "../components/Section";
 
-const renderBlocks = homeblocks => {
-  return homeblocks.map((block, ix) => (
-    <Card title={block.title} small={true} image={block.image} key={ix} />
-  ));
-};
+const isNull = variable => variable === "" || variable === null;
 
-const renderSections = homesections => {
-  return homesections.map((block, ix) => (
-    <Card
-      title={block.title}
-      subtitle={block.subtitle}
-      buttonText={block.buttontext}
-      buttonLink={block.buttonlink}
-      image={block.image}
-      large={true}
-      key={ix}
-    >
-      {block.description}
-    </Card>
-  ));
-};
-
-const IndexPageTemplate = ({
-  slides,
-  homeblocks,
-  homesections,
-  aboutsection,
-}) => (
+const IndexPageTemplate = ({ slides, hydrosection, aboutsection }) => (
   <div className="s-body">
     <Banner slides={slides} />
-
-    {homesections && (
-      <div className="s-body_card-container s-body_card-container--dark">
-        {renderSections(homesections)}
-      </div>
+    {!isNull(hydrosection) && (
+      <Section title={hydrosection.title} theme="dark" leftImage={true}>
+        {hydrosection.description}
+      </Section>
     )}
-
-    {homeblocks && (
-      <div className="s-body_card-container wrapper">
-        {renderBlocks(homeblocks)}
-      </div>
-    )}
-
     {aboutsection && (
       <div className="wrapper">
         <Card
@@ -67,12 +34,12 @@ const IndexPageTemplate = ({
   </div>
 );
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
   const { siteMetadata } = data.site;
 
   return (
-    <Layout>
+    <Layout {...props}>
       <Helmet>
         <title>{`${siteMetadata.title}`}</title>
         <meta name="description" content={`${siteMetadata.description}`} />
@@ -104,18 +71,6 @@ export const pageQuery = graphql`
           buttontext
           buttonlink
         }
-        homeblocks {
-          image
-          title
-        }
-        homesections {
-          buttontext
-          description
-          image
-          subtitle
-          title
-          buttonlink
-        }
         aboutsection {
           buttontext
           description
@@ -123,6 +78,10 @@ export const pageQuery = graphql`
           subtitle
           title
           buttonlink
+        }
+        hydrosection {
+          description
+          title
         }
       }
     }

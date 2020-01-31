@@ -58,7 +58,8 @@ class Banner extends React.Component {
     return slides.map((slide, ix) => {
       return (
         <div
-          className={`banner_slide ${this.state.activeSlide == ix && "active"}`}
+          className={`banner_slide ${this.state.activeSlide === ix &&
+            "active"}`}
           key={ix}
           style={{ backgroundImage: `url("${slide.image}")` }}
         >
@@ -66,12 +67,12 @@ class Banner extends React.Component {
             <h1 className="banner_slide_title">{slide.title}</h1>
             <h2 className="banner_slide_subtitle">{slide.subtitle}</h2>
             <p className="banner_slide_text">{slide.description}</p>
-            <Link
+            {/* <Link
               className="btn btn--default btn--margin-top"
               to={slide.buttonlink}
             >
               {slide.buttontext}
-            </Link>
+            </Link> */}
           </div>
         </div>
       );

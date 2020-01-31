@@ -1,19 +1,19 @@
-import React from 'react'
-import Header from '../Header';
-import Footer from '../Footer';
+import React from "react";
+import Header from "../Header";
+import Footer from "../Footer";
 
 import "../../styles/main.sass";
 
-const Layout = ({children}) => (
+const Layout = ({ children, location, ...props }) => {
+  return (
     <div className="layout">
-        <Header />
-        
-        <section className="l-content">
-            { children }
-        </section>
+      <Header current={location.pathname} />
 
-        <Footer />
+      <section className="l-content">{children}</section>
+
+      <Footer />
     </div>
-)
+  );
+};
 
-export default Layout
+export default Layout;
