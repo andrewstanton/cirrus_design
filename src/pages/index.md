@@ -2,7 +2,7 @@
 templateKey: index-page
 slides:
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/1-hed-section-looking-upstream.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide1.jpg
     title: Quality Design, Done Right The First Time
     subtitle: design process is rooted in three-dimensional design and drafting
     description: >-
@@ -11,7 +11,7 @@ slides:
     buttontext: Discover 3D Scanning
     buttonlink: /3d-scanning
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/generator-assembly-f.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide2.jpg
     title: High Quality 3D Modeling
     subtitle: view the page by clicking button down below
     description: >-
@@ -20,7 +20,7 @@ slides:
     buttontext: Discover 3D Modeling
     buttonlink: /3d-modeling-printing
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/machine-design-section.png
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide3.jpg
     title: Our Engineering, Design & Drafting Services
     subtitle: view the page by clicking button down below
     description: >-
