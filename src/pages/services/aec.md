@@ -1,5 +1,5 @@
 ---
-templateKey: service-page
+templateKey: aec-page
 title: Architectural Engineering Construction (AEC)
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec/aec-2.jpg
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/aec-example.jpg
@@ -15,5 +15,3 @@ Architectural Engineering Construction is a multi-disciplinary approach to the p
 We help our clients reduce file space consumption and offer optimized design services, with fast scan times that create detailed 3D point cloud information. Our web interface technology means it’s easy for our clients to access their scans. And our ability to add tags, hyperlinks and rich text to three-dimensional scans allows for clear jobsite communication.
 
 Digital scans can be used for site verification throughout the build process. During pre-build, scans can ensure that all parts of the structure and installations will be completed according to plan, through post-build, when documentation allows our clients to see how every piece of future equipment will be laid out.
-
-<a href="https://my.matterport.com/show/?m=urwL1Q2NQCe" target="_blank">View Matterport MEP Room Sample</a>
