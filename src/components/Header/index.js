@@ -158,9 +158,9 @@ class Header extends React.Component {
             >
               <section className="s-header_top">
                 <div className="wrapper">
-                  <div className="s-header_social">
+                  {/* <div className="s-header_social">
                     <SocialIcons />
-                  </div>
+                  </div> */}
                 </div>
               </section>
               <section className="s-header_bottom">

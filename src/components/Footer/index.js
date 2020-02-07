@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
-import SocialIcons from "../SocialIcons";
 
 const Footer = () => (
   <StaticQuery
@@ -59,7 +58,9 @@ const Footer = () => (
                 {data.site.siteMetadata.address_two}
                 <br />
                 <br />
-                {data.site.siteMetadata.email}
+                <a href={`mailto: ${data.site.siteMetadata.email}`}>
+                  {data.site.siteMetadata.email}
+                </a>
               </p>
             </div>
           </div>
@@ -69,9 +70,9 @@ const Footer = () => (
             <div className="s-footer_bottom_meta">
               &copy; Cirrus Design. All Rights Reserved.
             </div>
-            <div className="s-footer_bottom_social">
+            {/* <div className="s-footer_bottom_social">
               <SocialIcons />
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
