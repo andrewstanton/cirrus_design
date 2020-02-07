@@ -77,6 +77,17 @@
     line-height: 100%;
   }
 
+  &_titleLink {
+    &:hover {
+      text-decoration: none !important;
+
+      h1 {
+        color: $yellow;
+        border-bottom: 0px;
+      }
+    }
+  }
+
   &_subtitle {
     font-size: 1.8rem;
     font-weight: 500;

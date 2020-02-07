@@ -34,7 +34,7 @@ const IndustrialPageTemplate = ({
   image,
   image2,
   image3,
-  services
+  services,
 }) => (
   <div className="s-body s-body--internal">
     <Section
@@ -49,6 +49,8 @@ const IndustrialPageTemplate = ({
 
     {(!isNull(secbody) || !isNull(sectitle)) && (
       <Section
+        title="GENERATE A 2D BLUEPRINT FROM A 3D SCAN"
+        imageTitleLink="https://my.matterport.com/show/?m=YCBLWTM96af"
         imagetitle={sectitle}
         image={secimage}
         theme="dark"
@@ -60,9 +62,7 @@ const IndustrialPageTemplate = ({
             </video>
           </div>
         )}
-      >
-        {secbody}
-      </Section>
+      />
     )}
 
     <div className="s-body_card-container s-body_card-container--dark">
