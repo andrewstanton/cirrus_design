@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import paragraphs from "lines-to-paragraphs";
 import remark from "remark";
 import recommended from "remark-preset-lint-recommended";
@@ -11,10 +11,18 @@ const remarkContent = content =>
     .processSync(content)
     .toString();
 
-const Content = ({ children }) => (
-  <div
-    dangerouslySetInnerHTML={{ __html: paragraphs(remarkContent(children)) }}
-  />
+const Content = ({ children, renderHtml }) => (
+  <Fragment>
+    {renderHtml ? (
+      <div
+        dangerouslySetInnerHTML={{
+          __html: paragraphs(remarkContent(children))
+        }}
+      />
+    ) : (
+      <div>{children}</div>
+    )}
+  </Fragment>
 );
 
 export default Content;

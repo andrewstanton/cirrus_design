@@ -13,7 +13,7 @@ slides:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide2.jpg
     title: High Quality 3D Modeling
-    subtitle: view the page by clicking button down below
+    subtitle: 3D model nearly anything
     description: >-
       We use our collective 30 plus years of experience and the most up 
       to date technologies to offer our clients the highest quality service.
@@ -22,7 +22,7 @@ slides:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide3.jpg
     title: Our Engineering, Design & Drafting Services
-    subtitle: view the page by clicking button down below
+    subtitle: turn your designs into reality
     description: >-
       We use our collective 30 plus years of experience and the most up 
       to date technologies to offer our clients the highest quality service.

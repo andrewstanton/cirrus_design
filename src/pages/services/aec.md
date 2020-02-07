@@ -6,9 +6,13 @@ image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src
 blocks:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/wall-2.jpg
+    contain: true
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/wall-as-built.jpg
+    contain: true
 ---
+
+<a href="https://my.matterport.com/show/?m=urwL1Q2NQCe" target="_blank">View Matterport MEP Room Sample</a>
 
 Architectural Engineering Construction is a multi-disciplinary approach to the planning, design, construction and operation of a building. 3D scanning plays an integral role in the architecture, engineering and construction field, providing data that’s useful for customers whether they are planning new work or updating existing projects.
 
