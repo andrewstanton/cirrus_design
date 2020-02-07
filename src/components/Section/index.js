@@ -11,6 +11,7 @@ const classNames = (theme, leftImage, full) => {
 const Section = ({
   children,
   theme,
+  renderHtml = true,
   video,
   image,
   image2,
@@ -24,6 +25,7 @@ const Section = ({
   imagetitle,
   aboveSectionTitle,
   full,
+  bottomRender
 }) => (
   <section className={classNames(theme, leftImage, full)}>
     <div className="wrapper section_wrapper">
@@ -74,12 +76,13 @@ const Section = ({
         {addition && addition()}
 
         {typeof children === "function" ? (
-          <Content>{children()}</Content>
+          <Content renderHtml={renderHtml}>{children()}</Content>
         ) : (
-          <Content>{children}</Content>
+          <Content renderHtml={renderHtml}>{children}</Content>
         )}
       </div>
     </div>
+    {bottomRender && <div className="wrapper">{bottomRender()}</div>}
   </section>
 );
 
