@@ -5,8 +5,8 @@ import Form from "../Form";
 import Mutation from "../Mutation";
 
 const sendToLambda = data =>
-  //axios.post(`/.netlify/functions/send-email`, { ...data });
-  axios.post(`http://localhost:9000/contactus`, { ...data });
+  axios.post(`/.netlify/functions/contactus`, { ...data });
+// axios.post(`http://localhost:9000/contactus`, { ...data });
 
 class ContactForm extends React.Component {
   render() {
