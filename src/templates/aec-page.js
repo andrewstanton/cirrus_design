@@ -31,20 +31,11 @@ const AECPageTemplate = ({
   secimage,
   sectitle,
   helmet,
-  blocks,
+  blocks
 }) => (
   <div className="s-body s-body--internal">
     {helmet || ""}
-    <Section
-      aboveSectionTitle={() => (
-        <a href="https://my.matterport.com/show/?m=urwL1Q2NQCe" target="_blank">
-          View Matterport MEP Room Sample
-        </a>
-      )}
-      image={image}
-      image2={image2}
-      title={title}
-    >
+    <Section image={image} image2={image2} title={title}>
       {body}
     </Section>
     {(!isNull(secbody) || !isNull(sectitle)) && (

@@ -53,10 +53,6 @@ const Footer = () => (
               <p>
                 Phone: {data.site.siteMetadata.phone}
                 <br />
-                {data.site.siteMetadata.address_one}
-                <br />
-                {data.site.siteMetadata.address_two}
-                <br />
                 <br />
                 <a href={`mailto: ${data.site.siteMetadata.email}`}>
                   {data.site.siteMetadata.email}
