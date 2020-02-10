@@ -5,7 +5,7 @@ subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/bridge-and-platform.png
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/cg-bridge-drawing.jpg
 image3: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/p-id-example.jpg
-secvideo: '<div class="embed-response"><iframe src="https://www.youtube.com/embed/2fwL-bvC6Bs?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+secvideo: '<img src="" />'
 ---
 
 Cirrus Design helps turn our clients’ designs into reality. We provide comprehensive design engineering services in the mechanical, electrical and structural fields, and we specialize in Piping and Instrumentation Diagrams (P&ID).
