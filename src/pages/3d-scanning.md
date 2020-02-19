@@ -32,7 +32,7 @@ services:
     description: Cirrus Design can take a product design, no matter how complex, and digitally scan it to create a file that designers can use to fine tune that design.
     buttontext: LEARN MORE
     buttonlink: services/conceptual-design-testing
-    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/static/img/rogerboat.jpg
+    image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/img-21920.jpg
 ---
 
 3D Scanning produces what is known as a point cloud, or a set of data points created by measuring many points on the external surface of an existing object.
