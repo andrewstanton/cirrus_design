@@ -8,7 +8,7 @@ module.exports = {
     phone: "509-368-9794",
     address_one: "123 Main St",
     address_two: "Any City, USA 12345",
-    email: "cirrusdesign@live.com"
+    email: "3dscanning@cirrusdesign.net"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
