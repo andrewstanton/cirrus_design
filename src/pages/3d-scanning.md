@@ -20,7 +20,7 @@ services:
     description: >-
       Three-dimensional scanning technology has revolutionized the real estate industry. Today’s high-tech 3D scanners are capable of producing digital scans of virtually any building.
     buttontext: LEARN MORE
-    buttonlink: services/architectural
+    buttonlink: services/real-estate
     image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/dollhouse-view.jpg
   - title: Reverse Engineering
     description: >-
