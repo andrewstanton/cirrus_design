@@ -470,7 +470,7 @@ const sendEmail = async ({ email, context, subject }) => {
   const body = hbs(context);
 
   await transport.sendMail({
-    from: "no-reply@cirrus-design.com",
+    from: "no-reply@mg.cirrusdesign.net",
     to: email,
     subject,
     html: body
