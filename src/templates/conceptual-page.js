@@ -34,13 +34,14 @@ const PlanRender = () => (
             <li>Accuracy in order-of-magnitude</li>
             <li>No expert consultation included</li>
           </ul>
-          <Link
+          <a
             className="btn btn--default btn--block"
             type="button"
-            to="/contact"
+            target="_blank"
+            href="https://app.airshaper.com/users/sign_up?partner_id=aa223197-bb6f-4099-a46c-c9e7063e70b6"
           >
-            Contact Us
-          </Link>
+            Run Simulation
+          </a>
         </div>
       </div>
       <div>
@@ -53,13 +54,14 @@ const PlanRender = () => (
             <li>Immediate accuracy</li>
             <li>Expert contact (30 minutes)</li>
           </ul>
-          <Link
+          <a
             className="btn btn--default btn--block"
             type="button"
-            to="/contact"
+            target="_blank"
+            href="https://app.airshaper.com/users/sign_up?partner_id=aa223197-bb6f-4099-a46c-c9e7063e70b6"
           >
-            Contact Us
-          </Link>
+            Run Simulation
+          </a>
         </div>
       </div>
       <div>
@@ -72,13 +74,14 @@ const PlanRender = () => (
             <li>High Accuracy</li>
             <li>Expert contact (60 minutes)</li>
           </ul>
-          <Link
+          <a
             className="btn btn--default btn--block"
             type="button"
-            to="/contact"
+            target="_blank"
+            href="https://app.airshaper.com/users/sign_up?partner_id=aa223197-bb6f-4099-a46c-c9e7063e70b6"
           >
-            Contact Us
-          </Link>
+            Run Simulation
+          </a>
         </div>
       </div>
     </div>
