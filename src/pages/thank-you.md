@@ -2,4 +2,5 @@
 templateKey: normal-page
 title: Thank You
 ---
-We will contact you shortly. Thank you!
+
+We have received your information and will be in touch with you. Thank you!

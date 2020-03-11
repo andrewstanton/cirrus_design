@@ -108,3 +108,12 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+.full-image {
+  text-align: center;
+
+  img {
+    max-width: 1000px;
+    width: 100%;
+  }
+}
