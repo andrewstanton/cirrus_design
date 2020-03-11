@@ -1,5 +1,7 @@
 ---
 templateKey: conceptual-page
+seotitle: Title
+seodescription: Description
 title: Conceptual Design & Testing
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/fea-example-lifting-beam.png
 sectitle: Airshaper

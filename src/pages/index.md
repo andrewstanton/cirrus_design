@@ -1,5 +1,7 @@
 ---
 templateKey: index-page
+seotitle: Home Page
+seodescription: Description
 slides:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide1.jpg

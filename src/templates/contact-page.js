@@ -1,14 +1,13 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Section from "../components/Section";
 import ContactForm from "../components/ContactForm";
+import { SEO } from "../components/SEO";
 
-const ContactPageTemplate = ({ subtitle, title, body, helmet }) => (
+const ContactPageTemplate = ({ subtitle, title }) => (
   <div className="s-body s-body--internal">
-    {helmet || ""}
     <Section title={title} subtitle={subtitle} />
     <div className="section section--dark">
       <div className="wrapper wrapper--no-flex">
@@ -25,18 +24,10 @@ const ContactPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <ContactPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
-        helmet={
-          <Helmet titleTemplate={`%s | ${siteMetadata.title}`}>
-            <title>{`${frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${data.markdownRemark.rawMarkdownBody}`}
-            />
-          </Helmet>
-        }
       />
     </Layout>
   );
@@ -55,6 +46,8 @@ export const contactPageQuery = graphql`
       frontmatter {
         title
         subtitle
+        seotitle
+        seodescription
       }
       rawMarkdownBody
     }

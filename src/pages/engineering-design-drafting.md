@@ -1,5 +1,7 @@
 ---
 templateKey: overview-page
+seotitle: Title
+seodescription: Description
 title: Design Engineering Services
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/bridge-and-platform.png

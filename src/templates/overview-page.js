@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Section from "../components/Section";
+import { SEO } from "../components/SEO";
 
 const isNull = variable => variable === "" || variable === null;
 
@@ -62,6 +63,7 @@ const OverviewPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <OverviewPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
@@ -85,6 +87,8 @@ export const overviewPageQuery = graphql`
         sectitle
         secimage
         secvideo
+        seotitle
+        seodescription
         services {
           title
           description

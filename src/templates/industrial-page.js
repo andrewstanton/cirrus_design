@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Section from "../components/Section";
+import { SEO } from "../components/SEO";
 
 import video from "../video/point-cloud.mp4";
 
@@ -34,7 +35,7 @@ const IndustrialPageTemplate = ({
   image,
   image2,
   image3,
-  services,
+  services
 }) => (
   <div className="s-body s-body--internal">
     <Section
@@ -76,6 +77,7 @@ const IndustrialPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <IndustrialPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
@@ -91,6 +93,8 @@ export const industrialPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        seotitle
+        seodescription
         subtitle
         image
         image2

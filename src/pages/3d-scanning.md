@@ -1,5 +1,7 @@
 ---
 templateKey: overview-page
+seotitle: Title
+seodescription: Description
 title: 3D Scanning
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/1-hed-section-looking-upstream.jpg

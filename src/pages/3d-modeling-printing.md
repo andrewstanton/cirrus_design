@@ -1,5 +1,7 @@
 ---
 templateKey: overview-page
+seotitle: Title
+seodescription: Description
 title: 3D Modeling
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/unit-section-view.jpg
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/3d-duplex-panels.jpg

@@ -1,13 +1,12 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Section from "../components/Section";
+import { SEO } from "../components/SEO";
 
-const NormalPageTemplate = ({ subtitle, title, body, helmet }) => (
+const NormalPageTemplate = ({ subtitle, title, body }) => (
   <div className="s-body s-body--internal">
-    {helmet || ""}
     <Section title={title} subtitle={subtitle}>
       {body}
     </Section>
@@ -20,18 +19,10 @@ const NormalPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <NormalPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
-        helmet={
-          <Helmet titleTemplate={`%s | ${siteMetadata.title}`}>
-            <title>{`${frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${data.markdownRemark.rawMarkdownBody}`}
-            />
-          </Helmet>
-        }
       />
     </Layout>
   );
@@ -50,6 +41,8 @@ export const normalPageQuery = graphql`
       frontmatter {
         title
         subtitle
+        seotitle
+        seodescription
       }
       rawMarkdownBody
     }

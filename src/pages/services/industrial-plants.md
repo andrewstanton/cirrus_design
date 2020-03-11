@@ -1,5 +1,7 @@
 ---
 templateKey: industrial-page
+seotitle: Title
+seodescription: Description
 title: Industrial Plants
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/industial%20plants/industial-4.jpg
 sectitle: INDUSTRIAL PROCESSING PLANT MATTERPORT WALKTHROUGH

@@ -1,5 +1,7 @@
 ---
 templateKey: about-page
+seotitle: Title
+seodescription: Description
 title: Our Mission
 ---
 

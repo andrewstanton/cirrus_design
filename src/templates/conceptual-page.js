@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
-import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 
 import Card from "../components/Card";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
+import { SEO } from "../components/SEO";
 
 const renderBlocks = blocks => {
   return blocks.map(block => (
@@ -96,11 +96,9 @@ const ConceptualPageTemplate = ({
   secbody,
   secimage,
   sectitle,
-  helmet,
   blocks
 }) => (
   <div className="s-body s-body--internal">
-    {helmet || ""}
     <Section image={image} image2={image2} title={title}>
       {body}
     </Section>
@@ -128,18 +126,10 @@ const ConceptualPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <ConceptualPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
-        helmet={
-          <Helmet titleTemplate={`%s | ${siteMetadata.title}`}>
-            <title>{`${frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${data.markdownRemark.rawMarkdownBody}`}
-            />
-          </Helmet>
-        }
       />
     </Layout>
   );
@@ -162,6 +152,8 @@ export const conceptualePageQuery = graphql`
         secbody
         sectitle
         secimage
+        seotitle
+        seodescription
         blocks {
           contain
           subtitle

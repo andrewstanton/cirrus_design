@@ -1,5 +1,7 @@
 ---
 templateKey: service-page
+seotitle: Title
+seodescription: Description
 title: Reverse Engineering
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/reverse-engineer/machine.jpg
 blocks:

@@ -1,5 +1,7 @@
 ---
 templateKey: service-page
+seotitle: Title
+seodescription: Description
 title: Real Estate
 subtitle: Bryce's House
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/425-n-garry-dr-liberty-lake-living-room.jpg
