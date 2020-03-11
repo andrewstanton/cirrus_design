@@ -14,7 +14,7 @@ blocks:
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/static/img/jet-render.jpg
     subtitle: 3D model of jet boat
   - image: >-
-      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/airshaper.jpg
+      https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/boat-replacement.jpg
     subtitle: Aerodynamic testing
 ---
 
