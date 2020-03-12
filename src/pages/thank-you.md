@@ -1,5 +1,6 @@
 ---
 templateKey: normal-page
+seotitle: Thank You
 title: Thank You
 ---
 

@@ -1,11 +1,11 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Helmet from "react-helmet";
 
 import Layout from "../components/Layout";
 import Card from "../components/Card";
 import Banner from "../components/Banner";
 import Section from "../components/Section";
+import { SEO } from "../components/SEO";
 
 const isNull = variable => variable === "" || variable === null;
 
@@ -36,15 +36,10 @@ const IndexPageTemplate = ({ slides, hydrosection, aboutsection }) => (
 
 const IndexPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
-  const { siteMetadata } = data.site;
 
   return (
     <Layout {...props}>
-      <Helmet>
-        <title>{`${siteMetadata.title}`}</title>
-        <meta name="description" content={`${siteMetadata.description}`} />
-      </Helmet>
-
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <IndexPageTemplate {...frontmatter} />
     </Layout>
   );
@@ -63,6 +58,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         templateKey
+        seotitle
+        seodescription
         slides {
           title
           image

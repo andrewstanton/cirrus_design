@@ -1,3 +1,5 @@
+const { GA_TRACKING } = process.env;
+
 module.exports = {
   siteMetadata: {
     title: "Cirrus Design",
@@ -37,6 +39,12 @@ module.exports = {
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: GA_TRACKING
+      }
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {

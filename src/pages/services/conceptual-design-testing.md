@@ -1,5 +1,7 @@
 ---
 templateKey: conceptual-page
+seotitle: Conceptual Design & Testing With Airshaper 
+seodescription: Effortlessly Check And Improve Your Aerodynamic Design. Partnered With Belgian Airshaper Improving & Testing Performance Of Designs
 title: Conceptual Design & Testing
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/fea-example-lifting-beam.png
 sectitle: Airshaper

@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import Card from "../components/Card";
+import { SEO } from "../components/SEO";
 import Section from "../components/Section";
 
 import video from "../video/logo-animation.mp4";
@@ -19,6 +19,7 @@ const AboutPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <AboutPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
@@ -42,6 +43,8 @@ export const aboutPageQuery = graphql`
         sectitle
         secimage
         secvideo
+        seotitle
+        seodescription
         services {
           title
           description

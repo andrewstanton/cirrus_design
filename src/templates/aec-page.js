@@ -1,8 +1,7 @@
 import React from "react";
-import Helmet from "react-helmet";
 import { graphql } from "gatsby";
-import { markdown } from "markdown";
 
+import { SEO } from "../components/SEO";
 import Card from "../components/Card";
 import Layout from "../components/Layout";
 import Section from "../components/Section";
@@ -30,11 +29,9 @@ const AECPageTemplate = ({
   secbody,
   secimage,
   sectitle,
-  helmet,
   blocks
 }) => (
   <div className="s-body s-body--internal">
-    {helmet || ""}
     <Section image={image} image2={image2} title={title}>
       {body}
     </Section>
@@ -55,18 +52,10 @@ const AECPage = ({ data, ...props }) => {
 
   return (
     <Layout {...props}>
+      <SEO title={frontmatter.seotitle} description={frontmatter.description} />
       <AECPageTemplate
         {...frontmatter}
         body={data.markdownRemark.rawMarkdownBody}
-        helmet={
-          <Helmet titleTemplate={`%s | ${siteMetadata.title}`}>
-            <title>{`${frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${data.markdownRemark.rawMarkdownBody}`}
-            />
-          </Helmet>
-        }
       />
     </Layout>
   );
@@ -89,6 +78,8 @@ export const aecPageQuery = graphql`
         secbody
         sectitle
         secimage
+        seotitle
+        seodescription
         blocks {
           contain
           subtitle
