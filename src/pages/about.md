@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-seotitle: About Us & Our Mission | Cirrus Design
+seotitle: About 3D Scanning Services
 seodescription: We Use The Latest Point Cloud Technology To Improve Accuracy And Facilitate Early Visualization. Thorough And Accurate.
 title: Our Mission
 ---
