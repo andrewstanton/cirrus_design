@@ -36,9 +36,6 @@ const IndexPageTemplate = ({ slides, hydrosection, aboutsection }) => (
 
 const IndexPage = ({ data, ...props }) => {
   const { frontmatter } = data.markdownRemark;
-  const { siteMetadata } = data.site;
-
-  console.log({ frontmatter });
 
   return (
     <Layout {...props}>
