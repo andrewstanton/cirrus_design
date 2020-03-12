@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
-seotitle: Title
-seodescription: Description
+seotitle: About Us & Our Mission | Cirrus Design
+seodescription: We Use The Latest Point Cloud Technology To Improve Accuracy And Facilitate Early Visualization. Thorough And Accurate.
 title: Our Mission
 ---
 

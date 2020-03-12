@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: Title
-seodescription: Description
+seotitle: Engineering & Design Services For Spokane Washington
+seodescription: Comprehensive Engineering Services help turn our clients designs into reality. 30 plus years of experience.
 title: Design Engineering Services
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/bridge-and-platform.png

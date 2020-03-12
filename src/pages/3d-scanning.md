@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: Title
-seodescription: Description
+seotitle: Professional 3D Scanning 
+seodescription: We Use 3d Scanners From Industry Leaders Like Matterport And Faro. We Take Precise Measurements That Can Be Viewed From The Comfort Of Your Office.
 title: 3D Scanning
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/1-hed-section-looking-upstream.jpg
