@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
-seotitle: About 3D Scanning Services
-seodescription: We Use The Latest Point Cloud Technology To Improve Accuracy And Facilitate Early Visualization. Thorough And Accurate.
+seotitle: Learn About 3D Scanning Services, Washington | Cirrus Designs
+seodescription: WCirrus Designs Has Collective 30 Plus Years Of Experience, Using The Most Up To Date Tech. Thorough And Accurate Services In Washington
 title: Our Mission
 ---
 

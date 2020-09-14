@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: Professional 3D Scanning
-seodescription: We Use 3D Scanners From Industry Leaders Like Matterport And Faro. We Take Precise Measurements That Can Be Viewed From The Comfort Of Your Office.
+seotitle: Professional 3D Scanning Services In Washington | Cirrus Designs
+seodescription:3D Scanning Using Multiple Technologies From Industry Leaders. Precise Measurments For Accurate Scans
 title: 3D Scanning
 subtitle:
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/1-hed-section-looking-upstream.jpg

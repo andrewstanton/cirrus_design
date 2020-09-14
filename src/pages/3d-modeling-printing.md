@@ -1,7 +1,7 @@
 ---
 templateKey: overview-page
-seotitle: 3D Modeling & Printing - Washington
-seodescription: High Quality 3d Models. We Print And Produce Complex Shapes And Geometries At Your Request
+seotitle: 3D Modeling And Printing For Washington | Cirrus Designs
+seodescription: Highly Skilled Team Can 3D Model Nearly Anything. Small Parts To Large Plant Machinery. Manufacture Directly From The Model. Services In Washington U.S.
 title: 3D Modeling
 image: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/unit-section-view.jpg
 image2: https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/3d-duplex-panels.jpg

@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-seotitle: High Quality 3D Modeling
-seodescription: We Use Our Collective 30 Plus Years Of Experience And The Most Up To Date Technologies To Offer Our Clients The Highest Quality 3D Modeling And Design.
+seotitle: High Quality 3D Modeling & Engineering Services | Cirrus Designs
+seodescription: 30 Plus Years Experience, Uniquely Equipped In 3D Scanning Hydroelectric Power Plants, Architectural Engineering, Conceptual Design, And 3D Printing
 slides:
   - image: >-
       https://raw.githubusercontent.com/andrewstanton/cirrus-design/master/src/img/content/slide1.jpg
